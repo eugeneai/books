@@ -25,7 +25,7 @@ The book could be of interest to the researchers of various scientific fields, w
 Translator's note
 -----------------
 
-I'm not a professional translator (may be not the on at all) in the field of Philosophy and
+I'm not a professional translator (may be not at all) in the field of Philosophy and
 Philosophic methodology, so I'll appreciate all the possible
 help. That's why, I put this book under the Creative commons licence (see below).
 

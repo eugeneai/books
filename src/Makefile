@@ -4,3 +4,6 @@ all: pdf
 
 pdf: book.tex
 	pdflatex book.tex
+
+view: pdf
+	evince book.pdf

@@ -1,7 +1,7 @@
 Polysystem analysis and synthesis. Application in Geography
 ===========================================================
 
-This is a monograph of my father, which was published in 1997. Now I
+This is a monograph of by father, which was published in 1997 in Russian. Now I
 decided to start this translation to the English language as I need to
 reference this book from my papers.
 

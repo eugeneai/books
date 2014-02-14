@@ -1,4 +1,4 @@
-.PHONY: all pdf ps dvi clean orig
+.PHONY: all pdf ps dvi clean orig edit
 
 all: pdf
 
@@ -10,3 +10,6 @@ view: pdf
 
 orig:
 	djview ../father-1997.djvu &
+
+edit:	orig view
+	emacs book.tex &

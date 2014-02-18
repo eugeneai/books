@@ -11,5 +11,5 @@ view: pdf
 orig:
 	djview ../father-1997.djvu &
 
-edit:	orig view
+edit:	orig pdf
 	emacs book.tex &

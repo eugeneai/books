@@ -1,18 +1,18 @@
 Polysystem analysis and synthesis. Application in Geography
 ===========================================================
 
-This is a monograph of by father, which was published in 1997 in Russian. Now I
+This is a monograph of by my father, which has been published in 1997 in Russian. Now I
 decided to start this translation to the English language as I need to
 reference this book from my papers.
 
 This book subject is to show the power of dialectics and dialectic
 logic in application to various sciences, especially for
 modeling. Some problems can be solved without any proofs just by means
-of a correct interpretation of the existing dialectical
-structure. This approach is similar to the explorations in Category
+of a correct interpretation of the existing fibered 
+structure and corresponding concept mappings. This approach is similar to the explorations in Category
 theories: most of structural properties are investigated on the very
 abstract level, and, then, we need to obtain a correct interpretation
-of the structure morphing it to our object under investigation.
+of the structure morphing it to/from our object under investigation.
 
 Book annotation
 ---------------

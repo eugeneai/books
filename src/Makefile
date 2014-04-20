@@ -1,4 +1,4 @@
-.PHONY: all pdf ps dvi clean orig edit
+.PHONY: all pdf ps dvi clean orig edit ru en
 
 all: pdf
 
@@ -12,4 +12,12 @@ orig:
 	djview ../father-1997.djvu &
 
 edit:	orig pdf
-	emacs book.tex &
+	emacsclient -a emacs book.tex &
+
+book-ru.pdf:	book-ru.tex
+	lualatex $<
+	lualatex $<
+
+ru:	book-ru.pdf
+
+en:	book.pdf

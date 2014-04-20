@@ -16,8 +16,12 @@ edit:	orig pdf
 
 book-ru.pdf:	book-ru.tex
 	lualatex $<
-	lualatex $<
+	#lualatex $<
 
 ru:	book-ru.pdf
 
 en:	book.pdf
+
+clean:
+	latexmk -C
+	rm -f *.aux *.thm

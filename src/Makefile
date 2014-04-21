@@ -9,7 +9,7 @@ view: pdf
 	evince book.pdf &
 
 orig:
-	djview ../father-1997.djvu &
+	djview ../OCR-father-1997-cuneiform.djvu &
 
 edit:	orig pdf
 	emacsclient -a emacs book.tex &

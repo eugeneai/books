@@ -32,3 +32,5 @@
 *.tdo
 /father-1997.djvu
 *.thm
+\#*
+.\#*

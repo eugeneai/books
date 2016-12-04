@@ -28,6 +28,29 @@ Irkutsk National Research Technical University, Irkutsk}
 \maketitle
 
 \section{Introduction}
+Any software development life cycle consists of distinct stages and involves various formal and informal models, agents (designers, software developers, users, etc.) and technologies. Various combinations of stages form a number of software development life cycle schemes, such as waterfall and spiral models, V-model, agile and extreme approaches, iterative and incremental development, and various improvement models [1]. All the approaches make use of models of various degrees of abstraction and formalization. We consider a general case of the life cycles as a process of adaptation of new ideas, requirements and specifications, where each adaptation event is a model change. The adaptation implies modification of all the affected models due to the event. Thus, the software development process is represented as propagation of the differences (modifications) within a set of models representing the software under development. The target of the research is to construct an approach to describe the process of the difference propagation as a basis of a corresponding instrumental environment for software development.
+
+Since 2001 OMG exploits Model Driven Architecture (MDA) of software development. MDA [2] is a part of the model considered in the section III. MDA exploits three levels of abstractions to represent software: CIM, PIM and PSM. The Computation Independent Model (CIM) reflects software’s external requirements – its interfaces. CIM hides structural elements, and can be used for define specifications and checking requirements.
+
+The software designing technique of MDA is based on multistage transformation of Platform Independent Model (PIM) into a number of Platform Specific Models (PSM). PIM is a model of the software reflecting most of the structural and some semantic aspects of the software, but the model contains no information about implementation of the structures on the target program architecture. UML Class Diagram extended with some tag values and additional stereotypes is an example of PIM [3]. The extension allows one to denote implementation variants and hints for structures. PSM is a model, which canimplemented as source code of the subsystems, e.g.,could be a physical structure of a rational database, which is directly (deductively or by means of code templates) translated into DDL SQL-requests.
+
+The transformation of the PIM into PSMs is carried out under control of a Platform Model (PM) and a transformation scenario. PM contains information and algorithms of PIM’s structure analysis and generation of corresponding structures in PSMs. Sometimes PSM is understood as specified variant of PIM. The tag values and stereotypes are used to direct the transformation of a structure into desired frame.
+
+Main advantages of MDA usage in the software development are as follows:
+\begin{itemize}
+\item Design stage independence of the implementation platform; capability to replace the platform without redesigning PIM.
+
+\item Formal definition of PM: programmers’ knowledge is
+represented as rules and algorithms.
+
+\item Raising the automation level of the life cycle: early stage modifications (design stages) are less expensive to implement in PSMs. MDA is a great approach and successfully used in development complex software, but it has significant disadvantage, which we are to overcome:
+
+\item Using the MDA in simple projects usually extends time of software construction, although obtained formal PIM and PM models when analyzed could be used in other projects;
+
+\item Currently MDA is of little use in already constructed and implemented systems and systems based on stored data manipulation, e.g., existing informational systems, as modification of information data model results in database structure modification like adaptation to new data structures; Modification of PIM and source code is ignored by the procedures of transformations.
+\end{itemize}
+
+At present (2005...??) PMs in most of commercial MDA systems have been implemented on the basis of algorithmic approach. They are not far from CASE systems translating UML diagrams into a source code by various plug-ins. The main idea of MDA is to allow developer to modify PM according his/her preferences and task properties. Our experience shows that usage of present logical languages and PMs based on formalized knowledge [3] allows us to affect the transformation in an efficient way by means of changing a rule set content. Moreover, declarative paradigm of the logical languages naturally forces programmer to create rules processing only small parts of PIM in a multistage fashion with a number of intermediate decisions. This results in dividing the transformation process on stages, where each next stage deals with more concrete structures, which are nearer to PSM. Such approach looks naturally similar to above described application of the theory.
 
 \section{Logical inference}
 \label{sec:log-inf}
@@ -51,6 +74,20 @@ Irkutsk National Research Technical University, Irkutsk}
 \section{Conclusion}
 
 \section{Future Works}
+
+Software development life cycle has been considered as subject of the theory of complex systems and complexes [4] implying that the software development is a natural process. The life cycle is represented as system of models and morphisms between them. Analysis of the theory’s properties realization in the model shown, that the present instrumental software productivity could be extended by means of developing techniques for analysis of the passed life cycle stages, analysis and difference propagation of the models.
+
+To support the propagation of the differences existing examples of the present source code development technologies should be adapted. Namely, known patchfile format is considered and some its modification is suggested to account properties of generated source code. An approach to realization of the difference propagation is also briefly considered. It is shown, that the transformation technique and file formats are closed with respect to original formats of the software models representation.
+
+One of the aims of the research is to constructsoftware development tools based on analogy. For example, having stores in a revision control systems all the states, models and stages of MDA software development as the differences, it probably be possibleconstruct new sequence of differences for new original model.
+
+To gain some new experience about the topic a pilot project started to automate document preparation innotarial office, where users have a dominant roledeveloping the software function set.
+
+\section{Acknowledgment}
+
+
+The investigation in supported by Russian Foundation
+of Basic Research, grant No. 10-07-00051-a.
 
 \end{document}
 

@@ -1,0 +1,1 @@
+subook/latex.mk

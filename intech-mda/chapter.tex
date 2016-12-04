@@ -1,7 +1,7 @@
 \documentclass{intech}
 \usepackage[nolist]{acronym}
 \usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage{hyperref} % FIXME setup the package.
 \usepackage{hypernat}
 %\usepackage{subfig}
 \usepackage{color}
@@ -52,6 +52,162 @@ represented as rules and algorithms.
 
 At present (2005...??) PMs in most of commercial MDA systems have been implemented on the basis of algorithmic approach. They are not far from CASE systems translating UML diagrams into a source code by various plug-ins. The main idea of MDA is to allow developer to modify PM according his/her preferences and task properties. Our experience shows that usage of present logical languages and PMs based on formalized knowledge [3] allows us to affect the transformation in an efficient way by means of changing a rule set content. Moreover, declarative paradigm of the logical languages naturally forces programmer to create rules processing only small parts of PIM in a multistage fashion with a number of intermediate decisions. This results in dividing the transformation process on stages, where each next stage deals with more concrete structures, which are nearer to PSM. Such approach looks naturally similar to above described application of the theory.
 
+\section{MDA today}
+\label{sec:mda-today}
+
+General classification XMLTRANSFORM, graph conversion (Paramonov disser)
+
+ATL
+
+Stratego
+
+
+
+\section{Architecture implication}
+\label{sec:arch-imp}
+
+Enterprise information systems (IS) roughly can be divided to three main subsystems: data warehouse, business logics (also referred as business intelligence and sometimes also middleware) and user interface. The design and implementation techniques of the IS are almost always based on this kind division.
+
+Data warehouse is realized as à rational database with a query language, е.g., SQL. Business logics is responsible to support object-relational layer and define object interaction at runtime. User interface is used to modify data in the data warehouse, control the process of the IS functioning and initiate processes of solution of specific tasks such as data-analysis procedures and report generation. The division is principally compatible with standard MVC-scheme (Model-View-Controller). Data warehouse is à Model. User interface is à View. Business logics is à Controller.
+
+The design approaches to realize an the IS can be divided to two categories. The first category is a construction of the IS on the base of some universal library of modules. This approach embodies famous enterprise IS development platform SAP R/3 [1]. The second category is à construction of the IS from the ground using à CASE-system, е.g., Rational Rose. The RAD-systems (Rapid Application Development) supposed to belong to the first category.
+
+First approach can be seen as à process of experience accumulation in various IS manufacturing and consequent implementation of library modules with à reasonable level of abstraction. Each module implements à class of operations or business processes, and can be adjusted to the peculiarities of the business processes of à concrete enterprise. In this case the IS is à composition of previously specified modules implementing à system of business processes ойле enterprise.
+
+Second approach is to use some abstract modeling language to express à design of the system on à humanunderstandable level, and generate the source code of the IS according to the design. The UML language \cite{b2} is widely accepted standard of visual model formal
+representation.
+
+Most of present CASE tools contain the subsystems of code generation. The UML language is à general design description language and has no special features oriented on enterprise IS description, е.g., some many"=to-one associations are relations of an instance attribute to its list of values from à reference book. In this case à special choosing widget can be used in à user interface to fill in the attribute with value from the list. Code generators incorporated in the CASE"=tools will generate source code of SQL database definition script and Java classes. The database and Java classes will not interact without modules implementing business logics, coupling the database and classes' instances. User interface usually generated as à result of à database definition script analysis.
+
+Another fundamental problem is the database structure modification in IS administration, which results in necessity to find and modify source code of business logics and user interface. It seems, that the problem cannot be solved with present CASE"=tools.
+
+In late 2001 OMG (Object Management Group) proposed MDA (Model Driven Architecture) \cite{b3}. Software development in the MDA starts with à construction of Platform"=Independent Model (PIM) of an application's business functionality and behavior, typically built in the 11М1 language. This model remains stable as technology evolves. MDA development tools, available now from many vendors, convert the PIM first to à Platform"=Specific Model (PSM) and then to à working implementation on virtually any middleware platform: Web Services, XML/SOAP, EJB, С№/.Net, etc. Portability and interoperability are built into the architecture. OMG's industry"=standard modeling specifications support the MDA: UML; the MetaObject Facility (MOF); the Common Warehouse Metamodel (CWM); and ХМЬ Metadata Interchange (XMI). OMG Task Forces organized around industries including Finance, Manufacturing, Biotechnology, Space technology, and others use the MDA to standardize facilities in their domains.
+
+The ann of our research is to construct à generator software, which can generate à kernel of the IS on the base of an MDA.~The generation is carried out by means sequential specification of the PIM, resulting PSM and, then, the source code generation. To approach the aim an enrichment of UML is considered. The enrichment does not require to change the UML standards. MDA"=model of the IS of consists of UML Class diagrams enriched by stereotypes and tag values, PIM"=PSM conversion knowledge base formalized as Prolog language rules, and constraints on attribute values and associations represented with the OCL"=language. Other kinds of diagrams are not used on the present stage of this research.
+
+Hereafter we will use the following point of view to the structure of the IS.~The IS is constructed of the following program aspects: data warehousing, business"=logics and user interface. The aim is to generate all the program aspects from one PIM model simultaneously so that there were no functional contradictions among their source codes.
+
+\section{Model of IS}
+\label{sec:model-is}
+
+The proposed PIM of the IS has two parts: model MS of component structures and the associations and model МС of constraints. The PIM"=PSM conversion is defined by model MI of semantic interpretation of the PIM components and associations in PSM.
+
+\subsection{Model of component structures and associations}
+\label{sec:mod-com-sec-assoc}
+
+Model MS is à structure aspect of the IS.~We suppose that IS is implemented in object"=oriented programming languages or, at least, in languages supporting some kind of objects (abstract data types) in sense of data encapsulation, е.g., structure programming. MS defines the attribute structure and operations on the objects. Objects have associations with other objects, and the association also defined in MS.~The Class diagram of the UML"=language is à way for MS formalization. According to UML specification the objects are represented by Class classifier, which, in general, define пате of the object, list of its attributes, and operations on the object. UMLassociations define the relation between objects.
+
+Class diagram can be used to define object structure for almost any kind of software, but in our case the common techniques of the IS design as an enterprise IS should be accounted, е.g., attribute data are usually stored in a relational database. Last means that some additional information associated with the attribute, like attribute пате of à table, where the attribute will be stored. The UML"=language supports à possibility to associate the additional infoimation with any element of Class diagram as well as to define new kinds of classifiers. In the first case tag values are used, е.g., tag value display name can associate string "First name" with attribute first name of class Person. In the second case Ъу means of stereotypes one can define some peculiar properties on Classes, е.g., it can be pointed out that the attributes of Person instances are stored in PERSON table of à rational database. Thus, tag values and stereotypes are used to extend Class diagram with specific information about the IS as à special case of programming system.
+
+\subsection{Semantic interpretation of components and associations}
+\label{sec:sem-int}
+
+Generated source code of program aspects is understood as the semantic interpretation. The semantic interpretation is implemented by means of knowledge base and source code templates. Knowledge base contains formalized qualitative characteristics of relations between structural compositions of Class diagram elements, as well as associations to source code templates in the context of an environment defined with tag values and stereotypes and target implementation platform. In the process of the compositions recognition some intermediate conclusions are done, specifying the PSM.
+
+Let us consider an example. For à Class marked as \texttt{<<abstract>>} stereotype usually it is not necessary to generate SQL statement of table definition, as for abstract class has no instances. The SQL's PSM will not contain this class. All the attributes of the class are inherited by descendants, i.e., moved to corresponding descendant table definitions. А SQL view is generated to gather all the descendant class instances for à possible query. Thus, according to Class diagram the generating system creates an abstract class for business"=logics program aspect (business logics PSM has an reflection of the class), but creates no corresponding БЯЬ4аЫе definition. Thus, when à composition of elements has been recognized one of two actions can happen: à fact derivation, which is stored for further usage; source template filling in derived term values and resulting source code generation.
+
+\subsection{OCL constraints}
+\label{sec:sem-OCL}
+
+Model of constraints is an important part of the IS's PIM model. The following program components are examples of constraint implementations: atomic data types, value ranges, input patterns, database triggers, CONSTRAIN definitions in nowadays SQL.~Some elements of Class diagrams can have soundness check constraints, which should be checked by database engine in the case of table modification. UML specification contains the ОС1 language (Object Constraint Language) specification. The OCL language is useful to define constrains formally. Defined constrains are translated to their source code implementations in program aspects.
+
+Consider the following example. The text "Registration time of à person is earlier than departure time" could be translated to ОСЬ in some Person object context as follows:
+
+context Person inv:
+self.reg time < self.dep time
+The ОСЬ-expression is an invariant, i.е., holds always
+during life time of the object after construction.
+The expression is translated to the following source
+code:
+
+- for data warehousing program aspect (relational database):
+
+ALTER TABLE PERSON
+ADD CONSTRAINT
+REG TIME < DEP TIME
+
+- for user interface program aspect (а JavaScript validator within à HTML"=form):
+
+if (!this->reg time<this->dep time) { alert(...some warning text...) };
+
+The warning text is à text associated with the constraint.
+
+ОС1 supports language structures which can be translated to à complex SQL"=queries. Triggers are generated by means of analyzing combinations of pos t:- and pre: -conditions and pre9"=prefixes. The ОСЬexpression are translated in context of MI, also specifying PSM.
+
+\section{Logical MDA implementation}
+\label{sec:log-MDA-impl}
+
+Figure 1 illustrates system architecture and interaction of modules of the program generation software.
+
+\begin{figure}[htb]
+  \centering
+
+  \caption[Generator architecture]{System architecture and interaction of modules of the program generation software.}
+  \label{fig:gen-arch}
+\end{figure}
+
+\subsection{Architecture of generation software and its basic principles of functioning}
+\label{sec:basic-func}
+
+The UML Class diagram is defined by visual UML editor, е.g., PoseidonCE \cite{b4}. XMI"=translator is à standard DOM2"=compliant translator, we use à Python DOM2 parsing library (руХМЬ"=0.8.3). The IS PIM Model as object net is conducted by XMIParser.py module opensource library ArchGenXML \cite{b5}, during the conversion OCL"=expressions are extracted and parsed into à syntax parsing trees. The obtained object net is converted to à set of atom predicates of the Prolog language. Thus, the Class diagram during code generation is represented by means of three data formats.
+
+The diagram is sent to the top of à generation module net. Each module recognizes some aspect of IS's design and makes deductions as PSM specification or generates a piece of source code as the constructed PSM implementation. The topmost module make general decisions like whether to consider an attribute as possessed by an object, converts object structure in general. The obtained decisions transferred to other generator modules.
+
+The resulting source code is generated by the lowest modules. Each generator module uses its set of rules, which are stored in the module, so the knowledge base is distributed among the modules.
+
+\subsection{Generation module implementation}
+
+Each module consists ой~чо parts: recognition template and action. Recognition template is à Prolog rule or set of Prolog rules. If à query of the rule is successful for a number of objects, the action parametrized by the objects is initiated. Action can add à fact to the general fact list or generate à piece of source code.
+
+Generation modules are realized as Python language \cite{b6} instance methods of à class. The Prolog rules are written in so called docstrings of the methods. The docstrings are defined by special Python syntax constructions and accessible as doc -attribute of methods at runtime. Query to à generator is done by an wide"=class API"=method query, which is à generator. The set (tuple) of objects, on which the query is successful, can be also caught by a for statement. So, for the successful query not only module action is initiated, but some action defined by the f or"=statement.
+
+Consider an example of module construction for generation à SQL"=table for à nonabstract class.
+
+class Ru1esMixing:
+№ ruleset for SQL table generation
+def rule generating class(se1f, c1s):
+№ the class attributes are stored in à table,
+№ if the class is not abstract,
+¹ marked by «OODB» stereotype
+element (C1s, ' Class ' ),
+3+stereotype(C1s, 'abstract')
+яtereotype(Cls 'OQDB'),
+3+internal only(Cls).
+def rule c1ass~arent(se1f, c1s, parent)
+¹ Parent is one of the nonabstract
+class~arent(C1s, Gparent):â€”
+№ this two modules have no acti
+lass SQLTranslator(Translator, Ru1esMixing)
+№ SQL-script generation module set
+
+def genClass(self, cls)
+answer. append(attribs)
+№ SQL-script generator for class cls
+answer = (l
+№ the source code is à list of lines
+if cls in self. generated:
+№ if the class is already generated
+return answer № do nothing
+for , parent in
+self. query('c1àss рагеп~'
+(cls, '№') ):
+№ generate all nonabstract parents
+name=self.getName(cls) № class id
+at.tribs = self.genSchema(cls)
+№ generate àttributes of class
+answer. append("CREATE TABLE %s (" %
+name)
+answer. append(")%s;" %
+self.getTableType(cls))
+self.addFact("oodb table('%s', '%я')" %
+(cls getId(), name))
+№ adding the fact of reflection of
+№ the attribute to
+№ à corresponding SQL table field
+self. generated. append(cls)
+№ mark the class as already generated
+return answer № return the source code
+
 \section{Logical inference}
 \label{sec:log-inf}
 
@@ -71,7 +227,24 @@ At present (2005...??) PMs in most of commercial MDA systems have been implement
   \label{tab:test-tbl}
 \end{table}
 
+\section{Theoretical considerations}
+\label{sec:theor-general}
+
+?
+
+
+
 \section{Conclusion}
+
+An approach to implement code generators within OMG's MDA architecture is considered for à special class of enterprise information systems. А technique and software for generation of sound source code of main subsystems from one formal MDA model is developed. Under the soundness we consider the appropriate reflection of an element of UML Class diagram (а part of the model) in the generated subsystems.
+
+The software is based on à system of artiflicial intelligence, namely à knowledge based system. The code generation result from an inference on initial set of facts, representing as à specially enriched UML Class diagram. The generator system supports various levels of abstraction of the information system representation. The levels are defined by set of code generators. This allows one to transit from one implementation technology to another by means of realizing new generator subnet. On each level an intermediate (in sense of abstraction) variant of a Platform Specific Models (PSM) generated, which is specified on the lower levels. Thanks to the feature one can construct à net hierarchy of PSM models, allowing one to generalize design knowledge among à set of common implementation technologies.
+
+\subsection{Further pushdown}
+
+One of further directions of the project development is to involve in the modeling process other classes of UML diagrams and other OMG's standards, висЬ as the MetaObject Facility (MOF), and the Common Warehouse Metamodel (CWM). The another direction is to construct PIM model version difference analysis system. On the base of the analysis, е.g., à SQL script can be generated, which implements à transition of old database structure to new one.
+
+Aggregation and reports
 
 \section{Future Works}
 
@@ -85,13 +258,32 @@ To gain some new experience about the topic a pilot project started to automate 
 
 \section{Acknowledgment}
 
+The research is partially supported by the Council for grants of the President of Russian Federation, state support of the leading scientific schools, project No NSh-8081.2016.9.  The presented software is developed using the Shared Computing Center of Integrated Information and Computing Network of Irkutsk Research and Educational Complex \url{http://net.icc.ru}.
 
-The investigation in supported by Russian Foundation
-of Basic Research, grant No. 10-07-00051-a.
+
+\section{REFS}
+\label{sec:refs-tmp}
+
+[1] T. Curran, G. Keller, А. 1.а44, SAP R/3 Business Blueprint:
+Understanding the Business Process Reference Model,
+Prentice Hall PTR, USA, 1997.
+
+[2] G. Booch, J. Rumbaugh, 1. Jacobson, The Unified Modeling
+Language User Guide, 1st edition, Addison-Wesley Pub
+Со., Boston, 1998.
+
+[3] OMG Model Driven Architecture. http: //www.omg.org/mda/
+
+[4] Poseidon for UML - by Gentleware, just model вЂ” Ноте.
+http: //gentleware.corn/
+
+[5] ArchGenXML Manual - generating Archetypes using UML.
+http: //p lone. org/documentation/archetypes/archgenxml-
+manual/
+
+[6] Python Programming Language. \url{http://www.python.org/}
 
 \end{document}
-
-
 
 %%% Local Variables:
 %%% mode: latex

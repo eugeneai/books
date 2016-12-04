@@ -1,6 +1,6 @@
 %%% -----------------------------------------------------------------------------
-% LaTeX class for the IN-TECH Web book class 
-% 
+% LaTeX class for the IN-TECH Web book class
+%
 % Dr. Alexander Frster, IDSIA, Manno, Switzerland @ 2009
 %
 %	**  Technical support: <debeljuh@intechweb.org>	**
@@ -8,7 +8,7 @@
 % -----------------------------------------------------------------------------
 %%
 %% This file is 'intech.cls'
-%% 
+%%
 %% It may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License, either version 1.3c
 %% of this license or (at your option) any later version.
@@ -51,6 +51,7 @@
 \RequirePackage{float,verbatim}
 \RequirePackage{fancyhdr}
 \RequirePackage{calc}
+\RequirePackage[figurename=Fig.]{caption}
 
 \RequirePackage[breaklinks,hyperfootnotes=false]{hyperref}
 
@@ -146,7 +147,7 @@
   \fi
   \@xsect{#5}}
 
-%% Define \normalsize as 9 pt which is normally \small 
+%% Define \normalsize as 9 pt which is normally \small
 
 \renewcommand\normalsize{%
    \@setfontsize\normalsize\@ixpt{11}%
@@ -228,27 +229,27 @@
   {-\baselineskip}%
   {0.5\baselineskip}%
   {\normalfont\normalsize\itshape\sffamily}}%
-  
-\def\@maketitle{\newpage
-  \begin{flushright}%
-  {\bfseries\huge\fontfamily{phv}\selectfont \arabic{chapter}}\\*[22pt]%
-  {\bfseries\LARGE\fontfamily{phv}\selectfont\@chaptertitle} \\  \vspace*{12pt}%
- {\Large \@authors\par}%   
- {\large  \emph{\@affiliation}\par}%  
+
+ \def\@maketitle{\newpage
+   \begin{flushright}%
+   {\bfseries\huge\fontfamily{phv}\selectfont \arabic{chapter}}\\*[22pt]%
+   {\bfseries\LARGE\fontfamily{phv}\selectfont\@chaptertitle} \\  \vspace*{12pt}%
+  {\Large \@authors\par}%
+ {\large  \emph{\@affiliation}\par}%
  {\large \emph{\@country}\par}%
   \ifthenelse{\boolean{@secondauthors}}{\vskip\baselineskip%
- {\Large \@secondauthors\par}%   
- {\large  \emph{\@secondaffiliation}\par}%  
+ {\Large \@secondauthors\par}%
+ {\large  \emph{\@secondaffiliation}\par}%
  {\large \emph{\@secondcountry}\par}%
     }{}%
   \ifthenelse{\boolean{@thirdauthors}}{\vskip\baselineskip%
- {\Large \@thirdauthors\par}  
- {\large  \emph{\@thirdaffiliation}\par}  
+ {\Large \@thirdauthors\par}
+ {\large  \emph{\@thirdaffiliation}\par}
  {\large \emph{\@thirdcountry}\par}%
     }{}%
     \vspace{20pt}
- \end{flushright}%
-}%
+  \end{flushright}%
+ }%
 
 %%% Set special bibliography and citation style
 \renewcommand{\bibsection}{\section{References}}

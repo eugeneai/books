@@ -1,3 +1,0 @@
-[submodule "src/subook"]
-	path = src/subook
-	url = git@github.com:eugeneai/subook.git

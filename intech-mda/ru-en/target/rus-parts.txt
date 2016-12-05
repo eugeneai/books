@@ -28,41 +28,41 @@ sending message to an instance and receiving the answer.
 
 After PIM are sufficiently detailed, the Platform specific model (PSM) is constructed \cite{b115}. PSM is a framework model of the IS, where the IS functionality is represented taking into account the properties of the target software and hardware implementation platform.
 
-The transformation from PIM to PSM is carried out according to a formal representation of the properties of the target platform, i.e., Platform Model (PM). PSM is constructed by means of adding details about target platform into PIM.  Можно сказать, что PSM является описанием ИС, представляющим ее на уровне программного кода, т. е. со значительной детализацией особенностей реализации по сравнению с PIM. С учетом всех требований к программно"=аппаратной платформе на основе PSM синтезируется программный код ИС. A general scheme of PIM to PSM transformation is presented in Figure 6.1. 6.1
+The transformation from PIM to PSM is carried out according to a formal representation of the properties of the target platform, i.e., Platform Model (PM). PSM is constructed by means of adding details about target platform into PIM.  (SKIP PSM is a source code representation) e. (Skip PSM is mostly detailed PIM)  PSM contains model details to completely generate source code of subsystems according to the structures and properties defined in it. A general scheme of PIM to PSM transformation is presented in Figure 6.1
 
 Figure. Scheme of IS framework development according to MDA
 
-Our approach to PIM-PSM transformation is to use knowledge based systems.
+Our approach to PIM-PSM transformation is constructed with knowledge based systems.
 
-Начальной стадией разработки является составление технического задания и выработка требований к создаваемой ИС. Архитектура и требования к ИС представляются как объектная информационная модель, выраженная в виде диаграммы классов языка UML. В данном случае это и представляет собой PIM. Следующей стадией разработки является автоматическое порождение PSM и программного кода каркаса ИС. В зависимости от правил, задающих требования к программно"=аппаратной платформе, и имеющихся шаблонов программного кода среды функционирования возможно порождение нескольких вариантов реализации одной ИС. Порождение по одной модели гарантирует совместимость интерфейсов для информационного обмена, для случая распределенной среды функционирования.
+The initial stage of development is developing of technical specifications and requirements posed by IS. Architecture and requirements for IIS is represented as an object information model, expressed in the form of class diagrams of UML. In this case it represents the PIM. The next stage is the automatic generation of the PSM and code of IS framework. Depending on the rules that specify the requirements for target platform and the existing code templates, a number of implementations of the same IS can be generated. In the case of distributed environments, the common model ensures the compatibility of the interfaces for information exchange in the environment.
 
-Результатом порождения программного кода каркаса \cite{b93} ИС являются:
+The results of the code generation of IS framework \cite{b93} are:
 
-SQL"=запросы для создания таблиц БД, создания, редактирования, удаления записей в эти таблицы;
+the SQL queries for DB tables creation, and create, edit, delete statements for table records manitpulation;
 
-API-интерфейс взаимодействия с БД ИС;
+API for the database and IS interaction;
 
-заготовки (шаблоны) элементов пользовательского (визуального) интерфейса.
+stubs (templates) of graphics user interface widget layouts.
 
-Figure. Схема применения технологии разработки ИС.
+Figure. Scheme of the use of technology in the development of IS
 
-После генерации программного кода ИС требуется его адаптация. Под адаптацией кода в рамках рассматриваемой реализации понимается связывание порожденных элементов ИС. Схема применения данной технологии синтеза каркаса ИС представлена на рис. 6.2.
+After generating the program code of the IS its adaptation required. (?) It embodies the binding generated elements of IS. The scheme of application of this technology for the synthesis of the IS framework is shown in Fig. 6.2.
 
-Использование формализованного представления модели позволяет упростить разработку интерфейсов для реализации экспорта данных из унаследованных (ранее используемых ИС) для обеспечения целостности массива данных, представленных в ИС.
+The use of formalized representation of the model allows one to simplify the development of interfaces for data import from legacy, and to ensure the integrity of the dataset presented in the IS.
 
-# МЕТОДОЛОГИЯ ТРАНСФОРМАЦИИ МОДЕЛЕЙ
+# METHODOLOGY OF MODEL TRANSFORMATIONS
 
-В соответствии со спецификацией MDA программный код библиотек каркаса ИС должен порождаться автоматически на основе информационной и структурной моделей ИС. Рассмотрим технологию автоматического синтеза (генерации) целевого программного кода ИС по ее модели. Генерирование программного кода осуществляется при помощи последовательной трансформации исходной модели ИС.
+In accordance with the specification of the MDA subsystem code of  IS framework should be generated automatically on the basis of information and structural models of IS. Consider the technology of the automatic synthesis (generation) of the target program code of the IS out of its model. Generating program code is performed using a sequential transformation of the original model of IS.
 
-Можно сформулировать требования, которым должно соответствовать средство трансформации моделей для его применения в MDA:
+The requirements which should correspond to the software of transformation models for its application in MDA are as follows:
 
-Формальность и полнота. С помощью языка описания трансформаций можно задать любую необходимую трансформацию для любой платформы. При этом описание должно быть формализованным настолько, чтобы было возможно автоматическое его выполнение.
+(SHT) The ?formality? and completeness. Using the description language of transformations one could specify any transformation to any target platform. The description should be formalized so that it can be used in automatic execution.
 
-Универсальность правил трансформации. MDA имеет преимущество по сравнению со стандартными подходами к разработке ПО за счет того, что для перехода к PSM можно использовать стандартные описания трансформаций. Если бы для каждой системы трансформацию приходилось описывать заново, это оказалось бы даже менее эффективно, чем переход от PIM к PSM вручную. Поэтому необходимо, чтобы язык описания трансформации позволял задавать трансформации, применимые для множества проектов, а не только для одной конкретной UML"=модели. Желательно, чтобы в языке были предусмотрены средства для настройки и параметризации трансформации, не требующей кардинальной переделки всего описания трансформации.
+(SHT) The universality of the rules of transformation. (SHT) MDA has the advantage over standard approaches to software development due to the fact that the transition to PSM can be reached by means of the standard descriptions of transformations. (SHT, SKIP) If for each system the transformation had to describe again, it would have been even less effective than the transition from the PIM to the PSM manually. Therefore, the language of the description of the transformation must allow specification of transformations that apply to many projects, not just for one specific UML model. (SHT) The language has to include the means of the configuration and parameterization of the transformation, which do not require radical alterations in all the description of the transformation.
 
-Поддержка целостности при модификации. Во время разработки ни одна модель не остается неизменной. Это значит, что уже после трансформации как исходные модели, так и модели, созданные в процессе трансформации, могут быть изменены. При этом должен иметься способ поддерживать соответствие между этими моделями, достигнутое в процессе трансформации. Для этого необходимо сохранять информацию о ходе трансформации и о получившихся в процессе трансформации зависимостях между элементами модели, чтобы специализированный инструмент редактирования UML мог использовать эту информацию для автоматического поддержания соответствия между моделями.
+Support integrity chek in modification processing. (SHT) During development, no model is unchanged. After transformation, source models and models created in the process of transformation might be changed. Thus there must be a way to maintain correspondence between these models after the transformation process. The information about the progress of transformation and the process of transformation of dependencies between model elements must be kept, and a specialized editing tool of UML colud use this information to automatically maintain consistency between the models.
 
-Наглядность правил трансформации. Одно и то же описание трансформации может использоваться во многих проектах. При этом скорее всего потребуются его изменение и настройка под специфические требования. Это означает, что описание трансформации должно быть понятно не только создавшему его программисту, но и тому, кто планирует его использовать. Язык описания трансформации должен быть понятным для человека и иметь легко читаемую нотацию. Также желательно, чтобы язык допускал эффективное структурирование описания трансформации, т. е. его разбиение на слабо зависимые части. Без подобного структурирования будет очень сложно изменять описание трансформации большого объема, так как для оценки результата изменения придется проверять все описание трансформации, а не только его структурно независимую часть.
+Visibility rules of transformation. The same description of the transformation could be used in many projects. In this case, change and adaptation of the description will be required to specific conditions. The description of the transformation must be understood not only by the creator programmer, but also someone who is planning to use it. The description language of the transformation should be human-readable and have easy-to-read notation. It is also desirable that language would allow the efficient structuring of the description of the transformation i. e. splitting on the weakly dependent parts. Без подобного структурирования будет очень сложно изменять описание трансформации большого объема, так как для оценки результата изменения придется проверять все описание трансформации, а не только его структурно независимую часть.
 
 Взаимосвязанная трансформация нескольких моделей. При разработке ПО с использованием MDA в рамках одного проекта может иметься несколько UML"=моделей (соответствующих разным метамоделям или разным технологическим платформам). Поэтому язык трансформации должен предусматривать наличие более чем одной исходной и генерируемой модели. Если трансформация всех моделей происходит одновременно и по общему описанию, то процесс трансформации проще описывать (по сравнению со случаем, когда для каждой генерируемой модели существует отдельное описание трансформации), так как обычно трансформация моделей одного проекта имеет много общего. Кроме того, при одновременной трансформации проще выявлять соответствие между элементами моделей и генерировать разного рода вспомогательные модели (межплатформенные адаптеры, описания интерфейсов и т. д.) \cite{b56}.
 
@@ -203,8 +203,8 @@ XML"=шаблоны уровня представления данных для 
 
 Для внесения информации в БД ИС ПРР заложены механизмы, интерпретирующие сведения, содержащиеся в обменных XML"=данных. Возможна обработка как данных по одному XML"=документу через Web"=интерфейс, так и множества документов посредством запуска интерпретатора на сервере. Таким образом, разработанные технологии позволяют переносить данные из одного формата в другой без потери информации, кроме того, указанный обменный формат может быть использован для обеспечения взаимодействия различных экземпляров территориально распределенных систем ПРР.
 
-# ВЫВОДЫ
+# CONCLUSION
 
-На основе порождающего программирования в рамках подхода MDA разработана оригинальная технология создания информационных систем, в которой программный код базовых подсистем (каркаса) ИС синтезируется по их формализованному описанию, представленному в виде UML"=модели. Порождение кода ведется с исполнением сценариев синтеза, осуществляющих запросы к базе знаний, содержащей правила трансформации моделей. Программный код синтезируется на основе шаблонов, встроенных в правила и сценарии трансформации. Синтез программного кода является процедурой преобразования UML"=модели, задающей требования к архитектуре ИС с учетом данных в базе знаний относительно среды реализации.
+On the basis of generative programming and adaptation of MDA approach, an  original technology of creating information systems has been developed, which supports software subsystems source code to be synthesized according to their formalized description represented as UML model. (SHT)The generation of the code is carried on by execution of sythesizing scripts, which query the knowledge base containing the rules of the model transformation. The source code is synthesized from templates embedded in the rules and scenarios of transformation. Synthesis of program code is the process of converting UML model that specifies requirements for the architecture of the IS in accordance to the knowledge base content regarding the environment of the implementation.
 
-Применение технологии синтеза каркаса информационной системы по ее формальной модели показало ее высокую эффективность при создании медицинской информационной системы «Популяционный раковый регистр».
+Application of technology of synthesis of a skeleton of the information system according to its formal model has shown its high efficiency in egineering medical information system "Population cancer register".

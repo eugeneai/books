@@ -1,14 +1,14 @@
-12/5/16 6:42 PM
+12/5/16 11:39 PM
 Project Statistics
 
                  	Segments	Words	Characters (without spaces)	Characters (including spaces)	#Files	
 Total:           	     274	 3847	                      27890	                        31379	     1	
-Remaining:       	     215	 3098	                      22540	                        25359	     1	
+Remaining:       	     164	 2439	                      17837	                        20053	     1	
 Unique:          	     270	 3843	                      27864	                        31353	     1	
-Unique Remaining:	     214	 3097	                      22538	                        25357	     1	
+Unique Remaining:	     164	 2439	                      17837	                        20053	     1	
 
 
 Individual File Statistics:
 
 File Name    	Total Segments	Remaining Segments	Unique Segments	Unique Remaining Segments	Total Words	Remaining Words	Unique Words	Unique Remaining Words	Total Characters (without spaces)	Remaining Characters (without spaces)	Unique Characters (without spaces)	Unique Remaining Characters (without spaces)	Total Characters (including spaces)	Remaining Characters (including spaces)	Unique Characters (including spaces)	Unique Remaining Characters (including spaces)	
-rus-parts.txt	           274	               215	            270	                      214	       3847	           3098	        3843	                  3097	                            27890	                                22540	                             27864	                                       22538	                              31379	                                  25359	                               31353	                                         25357	
+rus-parts.txt	           274	               164	            270	                      164	       3847	           2439	        3843	                  2439	                            27890	                                17837	                             27864	                                       17837	                              31379	                                  20053	                               31353	                                         20053	

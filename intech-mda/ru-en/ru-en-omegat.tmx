@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="RU-RU">
+        <seg># ВЫВОДЫ</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153156Z" creationid="eugeneai" creationdate="20161205T153156Z">
+        <seg># CONCLUSION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg># МЕТОДОЛОГИЯ ТРАНСФОРМАЦИИ МОДЕЛЕЙ</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151132Z" creationid="eugeneai" creationdate="20161205T151132Z">
+        <seg># METHODOLOGY OF MODEL TRANSFORMATIONS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>6.1.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102615Z" creationid="eugeneai" creationdate="20161205T102615Z">
@@ -14,10 +30,26 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>API-интерфейс взаимодействия с БД ИС;</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150430Z" creationid="eugeneai" creationdate="20161205T150430Z">
+        <seg>API for the database and IS interaction;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>CI M~-- максимально общая и не зависимая от реализации системы модель.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051849Z" creationid="eugeneai" creationdate="20161205T051849Z">
         <seg>CIM is to be as general as possible and not dependent on the implementation of the systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>MDA имеет преимущество по сравнению со стандартными подходами к разработке ПО за счет того, что для перехода к PSM можно использовать стандартные описания трансформаций.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151751Z" creationid="eugeneai" creationdate="20161205T151751Z">
+        <seg>(SHT) MDA has the advantage over standard approaches to software development due to the fact that the transition to PSM can be reached by means of the standard descriptions of transformations.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42,6 +74,22 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101911Z" creationid="eugeneai" creationdate="20161205T101637Z">
         <seg>PSM is a framework model of the IS, where the IS functionality is represented taking into account the properties of the target software and hardware implementation platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>SQL"=запросы для создания таблиц БД, создания, редактирования, удаления записей в эти таблицы;</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150351Z" creationid="eugeneai" creationdate="20161205T150351Z">
+        <seg>the SQL queries for DB tables creation, and create, edit, delete statements for table records manitpulation;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Архитектура и требования к ИС представляются как объектная информационная модель, выраженная в виде диаграммы классов языка UML.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145532Z" creationid="eugeneai" creationdate="20161205T145532Z">
+        <seg>Architecture and requirements for IIS is represented as an object information model, expressed in the form of class diagrams of UML.</seg>
       </tuv>
     </tu>
     <tu>
@@ -78,6 +126,22 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>В данном случае это и представляет собой PIM.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145545Z" creationid="eugeneai" creationdate="20161205T145545Z">
+        <seg>In this case it represents the PIM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В зависимости от правил, задающих требования к программно"=аппаратной платформе, и имеющихся шаблонов программного кода среды функционирования возможно порождение нескольких вариантов реализации одной ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145914Z" creationid="eugeneai" creationdate="20161205T145914Z">
+        <seg>Depending on the rules that specify the requirements for target platform and the existing code templates, a number of implementations of the same IS can be generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>В рассматриваемом далее подходе к реализации MDA не используются CIMмодели.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T103623Z" creationid="eugeneai" creationdate="20161205T103623Z">
@@ -94,10 +158,34 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>В соответствии со спецификацией MDA программный код библиотек каркаса ИС должен порождаться автоматически на основе информационной и структурной моделей ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151237Z" creationid="eugeneai" creationdate="20161205T151237Z">
+        <seg>In accordance with the specification of the MDA subsystem code of  IS framework should be generated automatically on the basis of information and structural models of IS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>В соответствии со спецификацией стадия составления CIM не является обязательной и носит лишь рекомендательный характер.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051501Z" creationid="eugeneai" creationdate="20161205T051501Z">
         <seg>MDA does not prescribe the construction of CIM in every project and it is optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Во время разработки ни одна модель не остается неизменной.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152300Z" creationid="eugeneai" creationdate="20161205T152300Z">
+        <seg>(SHT) During development, no model is unchanged.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Генерирование программного кода осуществляется при помощи последовательной трансформации исходной модели ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151334Z" creationid="eugeneai" creationdate="20161205T151334Z">
+        <seg>Generating program code is performed using a sequential transformation of the original model of IS.</seg>
       </tuv>
     </tu>
     <tu>
@@ -128,8 +216,40 @@
       <tuv lang="RU-RU">
         <seg>Для реализации рассмотренного MDA"=подхода к созданию ИС предложена технология, основанная на применении формализованных знаний в процессе трансформации моделей.</seg>
       </tuv>
-      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102905Z" creationid="eugeneai" creationdate="20161205T102905Z">
-        <seg>Our approach to PIM-PSM transformation is to use knowledge based systems.</seg>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145351Z" creationid="eugeneai" creationdate="20161205T102905Z">
+        <seg>Our approach to PIM-PSM transformation is constructed with knowledge based systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Для этого необходимо сохранять информацию о ходе трансформации и о получившихся в процессе трансформации зависимостях между элементами модели, чтобы специализированный инструмент редактирования UML мог использовать эту информацию для автоматического поддержания соответствия между моделями.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152608Z" creationid="eugeneai" creationdate="20161205T152608Z">
+        <seg>The information about the progress of transformation and the process of transformation of dependencies between model elements must be kept, and a specialized editing tool of UML colud use this information to automatically maintain consistency between the models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Если бы для каждой системы трансформацию приходилось описывать заново, это оказалось бы даже менее эффективно, чем переход от PIM к PSM вручную.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151851Z" creationid="eugeneai" creationdate="20161205T151851Z">
+        <seg>(SHT, SKIP) If for each system the transformation had to describe again, it would have been even less effective than the transition from the PIM to the PSM manually.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Желательно, чтобы в языке были предусмотрены средства для настройки и параметризации трансформации, не требующей кардинальной переделки всего описания трансформации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152203Z" creationid="eugeneai" creationdate="20161205T152117Z">
+        <seg>(SHT) The language has to include the means of the configuration and parameterization of the transformation, which do not require radical alterations in all the description of the transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Использование формализованного представления модели позволяет упростить разработку интерфейсов для реализации экспорта данных из унаследованных (ранее используемых ИС) для обеспечения целостности массива данных, представленных в ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151116Z" creationid="eugeneai" creationdate="20161205T151116Z">
+        <seg>The use of formalized representation of the model allows one to simplify the development of interfaces for data import from legacy, and to ensure the integrity of the dataset presented in the IS.</seg>
       </tuv>
     </tu>
     <tu>
@@ -174,10 +294,50 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Можно сказать, что PSM является описанием ИС, представляющим ее на уровне программного кода, т.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145016Z" creationid="eugeneai" creationdate="20161205T144921Z">
+        <seg>(SKIP PSM is a source code representation)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Можно сформулировать требования, которым должно соответствовать средство трансформации моделей для его применения в MDA:</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151426Z" creationid="eugeneai" creationdate="20161205T151426Z">
+        <seg>The requirements which should correspond to the software of transformation models for its application in MDA are as follows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>На основе порождающего программирования в рамках подхода MDA разработана оригинальная технология создания информационных систем, в которой программный код базовых подсистем (каркаса) ИС синтезируется по их формализованному описанию, представленному в виде UML"=модели.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153504Z" creationid="eugeneai" creationdate="20161205T153504Z">
+        <seg>On the basis of generative programming and adaptation of MDA approach, an  original technology of creating information systems has been developed, which supports software subsystems source code to be synthesized according to their formalized description represented as UML model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Наглядность правил трансформации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152625Z" creationid="eugeneai" creationdate="20161205T152625Z">
+        <seg>Visibility rules of transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Начальной стадией разработки является составление технического задания и выработка требований к создаваемой ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145506Z" creationid="eugeneai" creationdate="20161205T145506Z">
+        <seg>The initial stage of development is developing of technical specifications and requirements posed by IS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Общая схема трансформации из PIM в PSM представлена на рис.</seg>
       </tuv>
-      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T104233Z" creationid="eugeneai" creationdate="20161205T104233Z">
-        <seg>A general scheme of PIM to PSM transformation is presented in Figure 6.1.</seg>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145306Z" creationid="eugeneai" creationdate="20161205T104233Z">
+        <seg>A general scheme of PIM to PSM transformation is presented in Figure</seg>
       </tuv>
     </tu>
     <tu>
@@ -238,6 +398,14 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Одно и то же описание трансформации может использоваться во многих проектах.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152655Z" creationid="eugeneai" creationdate="20161205T152633Z">
+        <seg>The same description of the transformation could be used in many projects.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Он достаточно понятен разработчику и в то же время строг, что предоставляет возможность обработки ограничения с помощью соответствующего программного обеспечения.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100213Z" creationid="eugeneai" creationdate="20161205T100213Z">
@@ -278,10 +446,58 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Под адаптацией кода в рамках рассматриваемой реализации понимается связывание порожденных элементов ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150818Z" creationid="eugeneai" creationdate="20161205T150818Z">
+        <seg>(?) It embodies the binding generated elements of IS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Поддержка целостности при модификации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152239Z" creationid="eugeneai" creationdate="20161205T152239Z">
+        <seg>Support integrity chek in modification processing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Порождение кода ведется с исполнением сценариев синтеза, осуществляющих запросы к базе знаний, содержащей правила трансформации моделей.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153647Z" creationid="eugeneai" creationdate="20161205T153647Z">
+        <seg>(SHT)The generation of the code is carried on by execution of sythesizing scripts, which query the knowledge base containing the rules of the model transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Порождение по одной модели гарантирует совместимость интерфейсов для информационного обмена, для случая распределенной среды функционирования.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150109Z" creationid="eugeneai" creationdate="20161205T150109Z">
+        <seg>In the case of distributed environments, the common model ensures the compatibility of the interfaces for information exchange in the environment.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>После генерации программного кода ИС требуется его адаптация.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150702Z" creationid="eugeneai" creationdate="20161205T150702Z">
+        <seg>After generating the program code of the IS its adaptation required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>После того как PIM достаточно детализирована, выполняется переход к модели, зависяшей от платформы (Platform Specific Model, PSM) \cite{b115}.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101645Z" creationid="eugeneai" creationdate="20161205T101628Z">
         <seg>After PIM are sufficiently detailed, the Platform specific model (PSM) is constructed \cite{b115}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Поэтому необходимо, чтобы язык описания трансформации позволял задавать трансформации, применимые для множества проектов, а не только для одной конкретной UML"=модели.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152009Z" creationid="eugeneai" creationdate="20161205T152009Z">
+        <seg>Therefore, the language of the description of the transformation must allow specification of transformations that apply to many projects, not just for one specific UML model.</seg>
       </tuv>
     </tu>
     <tu>
@@ -318,6 +534,14 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>При этом должен иметься способ поддерживать соответствие между этими моделями, достигнутое в процессе трансформации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152454Z" creationid="eugeneai" creationdate="20161205T152454Z">
+        <seg>Thus there must be a way to maintain correspondence between these models after the transformation process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>При этом некоторые аспекты реализуемых подсистем можно описать при помощи дополнительных, пользовательских тэгов для объектов UML"=диаграммы.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T094513Z" creationid="eugeneai" creationdate="20161205T094513Z">
@@ -326,10 +550,42 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>При этом описание должно быть формализованным настолько, чтобы было возможно автоматическое его выполнение.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151614Z" creationid="eugeneai" creationdate="20161205T151614Z">
+        <seg>The description should be formalized so that it can be used in automatic execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>При этом скорее всего потребуются его изменение и настройка под специфические требования.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152832Z" creationid="eugeneai" creationdate="20161205T152641Z">
+        <seg>In this case, change and adaptation of the description will be required to specific conditions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Применение OCL в UML"=диаграммах обусловлено необходимостью задания детальной формальной спецификации объектов.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100425Z" creationid="eugeneai" creationdate="20161205T100425Z">
         <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Применение технологии синтеза каркаса информационной системы по ее формальной модели показало ее высокую эффективность при создании медицинской информационной системы «Популяционный раковый регистр».</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153940Z" creationid="eugeneai" creationdate="20161205T153940Z">
+        <seg>Application of technology of synthesis of a skeleton of the information system according to its formal model has shown its high efficiency in egineering medical information system "Population cancer register".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Программный код синтезируется на основе шаблонов, встроенных в правила и сценарии трансформации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153712Z" creationid="eugeneai" creationdate="20161205T153712Z">
+        <seg>The source code is synthesized from templates embedded in the rules and scenarios of transformation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -350,10 +606,26 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Рассмотрим технологию автоматического синтеза (генерации) целевого программного кода ИС по ее модели.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151313Z" creationid="eugeneai" creationdate="20161205T151313Z">
+        <seg>Consider the technology of the automatic synthesis (generation) of the target program code of the IS out of its model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Результатом каждого OCL"=выражения является, как правило, логическое значение.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101052Z" creationid="eugeneai" creationdate="20161205T101052Z">
         <seg>Execution result of the OCL equation is a boolean value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Результатом порождения программного кода каркаса \cite{b93} ИС являются:</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150146Z" creationid="eugeneai" creationdate="20161205T150146Z">
+        <seg>The results of the code generation of IS framework \cite{b93} are:</seg>
       </tuv>
     </tu>
     <tu>
@@ -366,10 +638,66 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>С помощью языка описания трансформаций можно задать любую необходимую трансформацию для любой платформы.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151545Z" creationid="eugeneai" creationdate="20161205T151545Z">
+        <seg>Using the description language of transformations one could specify any transformation to any target platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>С учетом всех требований к программно"=аппаратной платформе на основе PSM синтезируется программный код ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145247Z" creationid="eugeneai" creationdate="20161205T145231Z">
+        <seg>PSM contains model details to completely generate source code of subsystems according to the structures and properties defined in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Синтез программного кода является процедурой преобразования UML"=модели, задающей требования к архитектуре ИС с учетом данных в базе знаний относительно среды реализации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153858Z" creationid="eugeneai" creationdate="20161205T153858Z">
+        <seg>Synthesis of program code is the process of converting UML model that specifies requirements for the architecture of the IS in accordance to the knowledge base content regarding the environment of the implementation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Следующей стадией разработки является автоматическое порождение PSM и программного кода каркаса ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145635Z" creationid="eugeneai" creationdate="20161205T145635Z">
+        <seg>The next stage is the automatic generation of the PSM and code of IS framework.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Стадии создания каркаса ИС в соответствии с MDA.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102647Z" creationid="eugeneai" creationdate="20161205T102647Z">
         <seg>Scheme of IS framework development according to MDA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Схема применения данной технологии синтеза каркаса ИС представлена на рис.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150934Z" creationid="eugeneai" creationdate="20161205T150934Z">
+        <seg>The scheme of application of this technology for the synthesis of the IS framework is shown in Fig.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Схема применения технологии разработки ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150558Z" creationid="eugeneai" creationdate="20161205T150558Z">
+        <seg>Scheme of the use of technology in the development of IS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Также желательно, чтобы язык допускал эффективное структурирование описания трансформации, т.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153052Z" creationid="eugeneai" creationdate="20161205T153052Z">
+        <seg>It is also desirable that language would allow the efficient structuring of the description of the transformation i.</seg>
       </tuv>
     </tu>
     <tu>
@@ -382,10 +710,42 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Универсальность правил трансформации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151628Z" creationid="eugeneai" creationdate="20161205T151628Z">
+        <seg>(SHT) The universality of the rules of transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Уточнения CIM приводят к создания PIM.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T103547Z" creationid="eugeneai" creationdate="20161205T103547Z">
         <seg>CIM refinements lead to specification og PIM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Формальность и полнота.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151454Z" creationid="eugeneai" creationdate="20161205T151454Z">
+        <seg>(SHT) The ?formality? and completeness.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Это значит, что уже после трансформации как исходные модели, так и модели, созданные в процессе трансформации, могут быть изменены.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152402Z" creationid="eugeneai" creationdate="20161205T152402Z">
+        <seg>After transformation, source models and models created in the process of transformation might be changed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Это означает, что описание трансформации должно быть понятно не только создавшему его программисту, но и тому, кто планирует его использовать.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152924Z" creationid="eugeneai" creationdate="20161205T152924Z">
+        <seg>The description of the transformation must be understood not only by the creator programmer, but also someone who is planning to use it.</seg>
       </tuv>
     </tu>
     <tu>
@@ -406,10 +766,42 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Язык описания трансформации должен быть понятным для человека и иметь легко читаемую нотацию.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153029Z" creationid="eugeneai" creationdate="20161205T152938Z">
+        <seg>The description language of the transformation should be human-readable and have easy-to-read notation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>вызов операции класса и получение значения, возврашаемого операцией.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101248Z" creationid="eugeneai" creationdate="20161205T101248Z">
         <seg>sending message to an instance and receiving the answer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>е.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T144929Z" creationid="eugeneai" creationdate="20161205T144929Z">
+        <seg>e.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>его разбиение на слабо зависимые части.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153122Z" creationid="eugeneai" creationdate="20161205T153122Z">
+        <seg>splitting on the weakly dependent parts.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>заготовки (шаблоны) элементов пользовательского (визуального) интерфейса.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150526Z" creationid="eugeneai" creationdate="20161205T150526Z">
+        <seg>stubs (templates) of graphics user interface widget layouts.</seg>
       </tuv>
     </tu>
     <tu>
@@ -450,6 +842,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101155Z" creationid="eugeneai" creationdate="20161205T101155Z">
         <seg>atribute value evaluation;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>со значительной детализацией особенностей реализации по сравнению с PIM.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145037Z" creationid="eugeneai" creationdate="20161205T145037Z">
+        <seg>(Skip PSM is mostly detailed PIM) </seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->

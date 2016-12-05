@@ -50,6 +50,41 @@ represented as rules and algorithms.
 \item Currently MDA is of little use in already constructed and implemented systems and systems based on stored data manipulation, e.g., existing informational systems, as modification of information data model results in database structure modification like adaptation to new data structures; Modification of PIM and source code is ignored by the procedures of transformations.
 \end{itemize}
 
+(?) One of the approaches for implementing concept of generative  programming, is MDA. MDA is based on a set of models to be modified in oreder to obtain the source code. (?) However, the specification of the software to be gnerated does not prescribe the ways of transformation of the models. Consider the model formalisms of information systems (IS), their representation and transformation.
+
+(!) According to MDA the process of creating the IS begins with the engineering a so called Computing independent model (CIM)) or Platform Independent Model (PIM) \cite{b115}. MDA does not prescribe the construction of CIM in every project and it is optional. CIM describes general requirements to the system, dictionary of the terms used, and operating conditions (the environment). The model must not contain any information of technical nature, descriptions of data structures and functionality of the system. (Here we add Juring addition)  CIM is to be as general as possible and not dependent on the implementation of the systems. This model is implemented frequently in Unified Modeling Language (UML) [l46], and further enriched and refined.
+
+CIM refinements lead to specification og PIM. We have no experience of usage CIM in IS specifications, but \ldots.
+
+PIM is the basis of MDA. Using PIM IS is described on an abstract level, which allows us to consider the IS under development as independent of the specific properties of software and hardware platform, where it is to be implementaed. According to MDA, PIM is recommended to contain a high degree of detail, and use a high-level platform independent programming language for describing IS functions. However, in the MDA specifications, the details of describing the behavior of the system from the user point of view must be free of thee details of its implementation: the latter should not be present in the PIM. One way to represent PIM is UML, and in a development process UML diagrams are the language for formal description of the system, as well as means of documenting. A very specific implementation aspects of subsystems are described with custom UML tags values and stereotypes.
+
+The source PIM in a general case contains formalized constraints specified in the Object Constraint Language (OCL) [70, 156]. The constraints play an important role in the design and implementation of the IS, they define the properties of the domain and its implementation perculiarities. (about compromize OCL representation of formatm mat theory of sets and informal natural languages....for constraint definition.) Usage of a natural language for constraint definition is not practical as its translators are complex and language terms are not uniquely interpreted. The sets theory and mathematical language are the means of construction of the precise uniquely interpreted formalisms for a constraint definition language, but it is not convenient for a regular programmer. (SKIP) OCL is a compramise formalism that aloso supports the object-oriented traditions. (SKIP) (SKIP)
+
+(SKIP) (?) Consistency criteria and preperties of model structure elements are defined with OCL, such as. (SKIP) (SKIP) 
+
+invariant constraints, which must hold after object instance creation till its destruction;
+
+(?) guarding conditions; (SKIP) guarging conditions are written in brackets and interpreted as triggers; 
+
+definition of pre- and postconditions of operations; (SKIP)
+
+ The OCL constraint is defined within a context denoted as a name of instance or class. Execution result of the OCL equation is a boolean value. (SKIP) OCL includes three operations:
+
+atribute value evaluation;
+
+association transition;
+
+sending message to an instance and receiving the answer.
+
+(?) OCL allows one to track the class instances, and the instances of descendant classes.
+
+After PIM are sufficiently detailed, the Platform specific model (PSM) is constructed \cite{b115}. PSM is a framework model of the IS, where the IS functionality is represented taking into account the properties of the target software and hardware implementation platform.
+
+The transformation from PIM to PSM is carried out according to a formal representation of the properties of the target platform, i.e., Platform Model (PM). PSM is constructed by means of adding details about target platform into PIM.  Можно сказать, что PSM является описанием ИС, представляющим ее на уровне программного кода, т. е. со значительной детализацией особенностей реализации по сравнению с PIM. С учетом всех требований к программно"=аппаратной платформе на основе PSM синтезируется программный код ИС. A general scheme of PIM to PSM transformation is presented in Figure 6.1. 6.1
+
+Figure. Scheme of IS framework development according to MDA
+
+
 ABOUT CIM (\cite{jurin} et al)
 
 At present (2005...??) PMs in most of commercial MDA systems have been implemented on the basis of algorithmic approach. They are not far from CASE systems translating UML diagrams into a source code by various plug-ins. The main idea of MDA is to allow developer to modify PM according his/her preferences and task properties. Our experience shows that usage of present logical languages and PMs based on formalized knowledge [3] allows us to affect the transformation in an efficient way by means of changing a rule set content. Moreover, declarative paradigm of the logical languages naturally forces programmer to create rules processing only small parts of PIM in a multistage fashion with a number of intermediate decisions. This results in dividing the transformation process on stages, where each next stage deals with more concrete structures, which are nearer to PSM. Such approach looks naturally similar to above described application of the theory.

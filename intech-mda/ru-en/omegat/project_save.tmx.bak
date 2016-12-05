@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.1_0_9319:9320" segtype="sentence" srclang="RU-RU"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>6.1.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102615Z" creationid="eugeneai" creationdate="20161205T102615Z">
+        <seg>6.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>CI M~-- максимально общая и не зависимая от реализации системы модель.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051849Z" creationid="eugeneai" creationdate="20161205T051849Z">
+        <seg>CIM is to be as general as possible and not dependent on the implementation of the systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>OCL является частью спецификации UML.~OCL"=выражения позволяют задавать критерии непротиворечивости UMLмодели в целом, а также свойства отдельных элементов этой модели (например, вычислимые атрибуты классов).</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100531Z" creationid="eugeneai" creationdate="20161205T100414Z">
+        <seg>Consistency criteria and preperties of model structure elements are defined with OCL, such as.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>PSM является моделью каркаса ИС, в которой функции ИС представлены с учетом специфики и свойств заданной программно"=аппаратной платформы.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101911Z" creationid="eugeneai" creationdate="20161205T101637Z">
+        <seg>PSM is a framework model of the IS, where the IS functionality is represented taking into account the properties of the target software and hardware implementation platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В PSMмодели происходит дальнейшая детализация PIM"=модели и добавление элементов, специфичных для конкретного способа реализации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102431Z" creationid="eugeneai" creationdate="20161205T102431Z">
+        <seg>PSM is constructed by means of adding details about target platform into PIM. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В UML объект может быть ассоциирован с другим объектом посредством бинарной связи.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101106Z" creationid="eugeneai" creationdate="20161205T101106Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В UMLдиаграмме возможно задание ограничений на сущности модели с помощью как естественного, так и формального языков.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T095456Z" creationid="eugeneai" creationdate="20161205T095456Z">
+        <seg>(about compromize OCL representation of formatm mat theory of sets and informal natural languages....for constraint definition.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В данной модели описываются общие требования к системе, словарь используемых понятий и условия функционирования (окружение).</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051541Z" creationid="eugeneai" creationdate="20161205T051541Z">
+        <seg>CIM describes general requirements to the system, dictionary of the terms used, and operating conditions (the environment).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В соответствии с MDA рекомендуется доводить PIM до высокой степени детализации, вплоть до использования высокоуровневого платформенно"=независимого языка программирования для описания функций ИС.~Однако в спецификации MDA предписывается отличать детали, описывающие поведение системы с точки зрения пользователя, от деталей ее практической реализации: последние не должны присутствовать в платформенно"=независимой модели.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T094020Z" creationid="eugeneai" creationdate="20161205T094020Z">
+        <seg>According to MDA, PIM is recommended to contain a high degree of detail, and use a high-level platform independent programming language for describing IS functions. However, in the MDA specifications, the details of describing the behavior of the system from the user point of view must be free of thee details of its implementation: the latter should not be present in the PIM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В соответствии со спецификацией стадия составления CIM не является обязательной и носит лишь рекомендательный характер.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051501Z" creationid="eugeneai" creationdate="20161205T051501Z">
+        <seg>MDA does not prescribe the construction of CIM in every project and it is optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Для задания и вычисления OCL"=выражений всегда требуется некоторый контекст, определяемый с помощью имени типа экземпляра или класса.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101018Z" creationid="eugeneai" creationdate="20161205T101018Z">
+        <seg>The OCL constraint is defined within a context denoted as a name of instance or class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Для задания однозначно интерпретируемых формальных ограничений можно использовать методы теории множеств, алгебры логики и других математических структур.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100050Z" creationid="eugeneai" creationdate="20161205T100050Z">
+        <seg>The sets theory and mathematical language are the means of construction of the precise uniquely interpreted formalisms for a constraint definition language, but it is not convenient for a regular programmer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Как вариант задания ограничений над объектами UML"=модели используется формальный язык OCL.~Данный язык схож своим синтаксисом с объектно"=ориентированными языками программирования.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100206Z" creationid="eugeneai" creationdate="20161205T100206Z">
+        <seg>OCL is a compramise formalism that aloso supports the object-oriented traditions.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Как правило, данная модель реализуется на языке UML (Unified Modeling Language) [l46], а в дальнейшем обогащается и уточняется.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T052014Z" creationid="eugeneai" creationdate="20161205T052014Z">
+        <seg>This model is implemented frequently in Unified Modeling Language (UML) [l46], and further enriched and refined.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Как язык задания ограничений он используется для:</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100544Z" creationid="eugeneai" creationdate="20161205T100513Z">
+        <seg>(SKIP) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Модель не должна содержать никаких сведений технического характера, описаний структуры и функционала системы.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051817Z" creationid="eugeneai" creationdate="20161205T051817Z">
+        <seg>The model must not contain any information of technical nature, descriptions of data structures and functionality of the system. (Here we add Juring addition) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Можно отметить, что исходная UML"=модель может быть обогащена формализованными ограничениями, заданными на языке ОС1 (Object Constraint Language) [70, 156].</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T094750Z" creationid="eugeneai" creationdate="20161205T094655Z">
+        <seg>The source PIM in a general case contains formalized constraints specified in the Object Constraint Language (OCL) [70, 156].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Можно сказать, что PSM является описанием ИС, представляющим ее на уровне программного кода, т.~е.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102439Z" creationid="eugeneai" creationdate="20161205T102439Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Ограничения, заданные на естественном языке, сложно однозначно интерпретировать.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T095748Z" creationid="eugeneai" creationdate="20161205T095637Z">
+        <seg>Usage of a natural language for constraint definition is not practical as its translators are complex and language terms are not uniquely interpreted.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Однако спецификация никак не оговаривает способы и технологии трансформации таких моделей.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051030Z" creationid="eugeneai" creationdate="20161205T050904Z">
+        <seg>(?) However, the specification of the software to be gnerated does not prescribe the ways of transformation of the models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Однако этот способ требует от разработчика высокой математической квалификации и не соответствует современному стилю программирования.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100111Z" creationid="eugeneai" creationdate="20161205T100111Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Одним из подходов, реализующих концепцию порождающего программирования, является MDA.~Особенности спецификации MDA состоят в том, что в ней представлены виды моделей, которые требуется модифицировать с целью получения исходного программного кода.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T050918Z" creationid="eugeneai" creationdate="20161205T050418Z">
+        <seg>(?) One of the approaches for implementing concept of generative  programming, is MDA. MDA is based on a set of models to be modified in oreder to obtain the source code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Одним из способов представления PIM является UML.~При разработке 13М1 -диаграмма является как средством формального описания системы, так и средством ее документирования для разработчика.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T094251Z" creationid="eugeneai" creationdate="20161205T094251Z">
+        <seg>One way to represent PIM is UML, and in a development process UML diagrams are the language for formal description of the system, as well as means of documenting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Он достаточно понятен разработчику и в то же время строг, что предоставляет возможность обработки ограничения с помощью соответствующего программного обеспечения.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100213Z" creationid="eugeneai" creationdate="20161205T100213Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Охранные условия записываются в квадратных скобках и используются в качестве триггеров;</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100810Z" creationid="eugeneai" creationdate="20161205T100730Z">
+        <seg>guarging conditions are written in brackets and interpreted as triggers; </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Платформенно"=независимая модель PIM~-- это основа MDA.~При помощи PIM ИС описывается на абстрактном уровне, который позволяет рассматривать разрабатываемую ИС как не зависящую от конкретных свойств программно"=аппаратной платформы будущей реализации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T093545Z" creationid="eugeneai" creationdate="20161205T093318Z">
+        <seg>PIM is the basis of MDA. Using PIM IS is described on an abstract level, which allows us to consider the IS under development as independent of the specific properties of software and hardware platform, where it is to be implementaed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>После того как PIM достаточно детализирована, выполняется переход к модели, зависяшей от платформы (Platform Specific Model, PSM) \cite{b115}.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101645Z" creationid="eugeneai" creationdate="20161205T101628Z">
+        <seg>After PIM are sufficiently detailed, the Platform specific model (PSM) is constructed \cite{b115}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Предусловиями называются ограничения, которым должны удовлетворять входные значения функции, а постусловиями~-- ограничения, которым удовлетворяют выходные значения функции.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100847Z" creationid="eugeneai" creationdate="20161205T100847Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Преобразование из PIM в PSM осуществляется при помоши формального представления свойств платформы, модели программно"=аппаратной платформы (Platform Model).</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102124Z" creationid="eugeneai" creationdate="20161205T102108Z">
+        <seg>The transformation from PIM to PSM is carried out according to a formal representation of the properties of the target platform, i.e., Platform Model (PM).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>При этом некоторые аспекты реализуемых подсистем можно описать при помощи дополнительных, пользовательских тэгов для объектов UML"=диаграммы.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T094513Z" creationid="eugeneai" creationdate="20161205T094513Z">
+        <seg>A very specific implementation aspects of subsystems are described with custom UML tags values and stereotypes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Применение OCL в UML"=диаграммах обусловлено необходимостью задания детальной формальной спецификации объектов.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100425Z" creationid="eugeneai" creationdate="20161205T100425Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Процесс создания ИС начинается с построения вычислительно"=независимой модели~-- CIM (Computational Independent Model) или с построения платформенно"=независимой модели~-- PIM (Platform Independent Model) \cite{b115}.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051329Z" creationid="eugeneai" creationdate="20161205T051329Z">
+        <seg>(!) According to MDA the process of creating the IS begins with the engineering a so called Computing independent model (CIM)) or Platform Independent Model (PIM) \cite{b115}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Рассмотрим виды моделей информационных систем (ИС), их представление и трансформацию.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051112Z" creationid="eugeneai" creationdate="20161205T051112Z">
+        <seg>Consider the model formalisms of information systems (IS), their representation and transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Результатом каждого OCL"=выражения является, как правило, логическое значение.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101052Z" creationid="eugeneai" creationdate="20161205T101052Z">
+        <seg>Execution result of the OCL equation is a boolean value.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Рисунок.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102620Z" creationid="eugeneai" creationdate="20161205T102620Z">
+        <seg>Figure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Стадии создания каркаса ИС в соответствии с MDA.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102647Z" creationid="eugeneai" creationdate="20161205T102647Z">
+        <seg>Scheme of IS framework development according to MDA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Такого рода ограничения играют важную роль в проектировании и реализации ИС.~Ограничения задают свойства как предметной области разрабатываемой ИС, так и специфики ее реализации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T095107Z" creationid="eugeneai" creationdate="20161205T095107Z">
+        <seg>The constraints play an important role in the design and implementation of the IS, they define the properties of the domain and its implementation perculiarities.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Уточнения CIM приводят к создания PIM.~В рассматриваемом далее подходе к реализации MDA не используются CIMмодели.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T052143Z" creationid="eugeneai" creationdate="20161205T052143Z">
+        <seg>CIM refinements lead to specification og PIM. (?) We have no experience of usage CIM in IS specifications, but \ldots.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Это позволяет отслеживать ограничения как родительского объекта, так и всех дочерних и объектов, связанных с родительским.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101444Z" creationid="eugeneai" creationdate="20161205T101444Z">
+        <seg>(?) OCL allows one to track the class instances, and the instances of descendant classes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Язык OCL позволяет выполнять три операции над объектами:</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101134Z" creationid="eugeneai" creationdate="20161205T101134Z">
+        <seg>OCL includes three operations:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>вызов операции класса и получение значения, возврашаемого операцией.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101248Z" creationid="eugeneai" creationdate="20161205T101248Z">
+        <seg>sending message to an instance and receiving the answer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>задания инвариантов~-- логических выражений, вычисление которых должно давать значение «true» в момент созданиякаждого экземпляра объекта и сохранять это значение в течение всего времени жизни этого объекта;</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100631Z" creationid="eugeneai" creationdate="20161205T100631Z">
+        <seg>invariant constraints, which must hold after object instance creation till its destruction;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>задания преди постусловий, накладываемых на операции и методы.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100837Z" creationid="eugeneai" creationdate="20161205T100837Z">
+        <seg>definition of pre- and postconditions of operations;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>описания охранных условий, используются, как правило, в диаграммах состояния UML.~Они представляют собой условие, которое должно быть выполнено для возможности осуществления перехода между смежными состояниями.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100736Z" creationid="eugeneai" creationdate="20161205T100701Z">
+        <seg>switching conditions in UML State diagram, </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>переход по соединению;</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101217Z" creationid="eugeneai" creationdate="20161205T101217Z">
+        <seg>association transition;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>получение значения атрибута;</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101155Z" creationid="eugeneai" creationdate="20161205T101155Z">
+        <seg>atribute value evaluation;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>со значительной детализацией особенностей реализации по сравнению с PIM.~С учетом всех требований к программно"=аппаратной платформе на основе PSM синтезируется программный код ИС.~Общая схема трансформации из PIM в PSM представлена на рис.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102612Z" creationid="eugeneai" creationdate="20161205T102612Z">
+        <seg>PSM is to contain enough details to generate source code of subsystems according to the structures and properties defined in it.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

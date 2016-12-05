@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.0.1_0_9319:9320" segtype="sentence" srclang="RU-RU"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>CI M~-- максимально общая и не зависимая от реализации системы модель.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051849Z" creationid="eugeneai" creationdate="20161205T051849Z">
+        <seg>CIM is to be as general as possible and not dependent on the implementation of the systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В данной модели описываются общие требования к системе, словарь используемых понятий и условия функционирования (окружение).</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051541Z" creationid="eugeneai" creationdate="20161205T051541Z">
+        <seg>CIM describes general requirements to the system, dictionary of the terms used, and operating conditions (the environment).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В соответствии со спецификацией стадия составления CIM не является обязательной и носит лишь рекомендательный характер.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051501Z" creationid="eugeneai" creationdate="20161205T051501Z">
+        <seg>MDA does not prescribe the construction of CIM in every project and it is optional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Как правило, данная модель реализуется на языке UML (Unified Modeling Language) [l46], а в дальнейшем обогащается и уточняется.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T052014Z" creationid="eugeneai" creationdate="20161205T052014Z">
+        <seg>This model is implemented frequently in Unified Modeling Language (UML) [l46], and further enriched and refined.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Модель не должна содержать никаких сведений технического характера, описаний структуры и функционала системы.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051817Z" creationid="eugeneai" creationdate="20161205T051817Z">
+        <seg>The model must not contain any information of technical nature, descriptions of data structures and functionality of the system. (Here we add Juring addition) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Однако спецификация никак не оговаривает способы и технологии трансформации таких моделей.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051030Z" creationid="eugeneai" creationdate="20161205T050904Z">
+        <seg>(?) However, the specification of the software to be gnerated does not prescribe the ways of transformation of the models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Одним из подходов, реализующих концепцию порождающего программирования, является MDA.~Особенности спецификации MDA состоят в том, что в ней представлены виды моделей, которые требуется модифицировать с целью получения исходного программного кода.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T050918Z" creationid="eugeneai" creationdate="20161205T050418Z">
+        <seg>(?) One of the approaches for implementing concept of generative  programming, is MDA. MDA is based on a set of models to be modified in oreder to obtain the source code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Процесс создания ИС начинается с построения вычислительно"=независимой модели~-- CIM (Computational Independent Model) или с построения платформенно"=независимой модели~-- PIM (Platform Independent Model) \cite{b115}.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051329Z" creationid="eugeneai" creationdate="20161205T051329Z">
+        <seg>(!) According to MDA the process of creating the IS begins with the engineering a so called Computing independent model (CIM)) or Platform Independent Model (PIM) \cite{b115}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Рассмотрим виды моделей информационных систем (ИС), их представление и трансформацию.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051112Z" creationid="eugeneai" creationdate="20161205T051112Z">
+        <seg>Consider the model formalisms of information systems (IS), their representation and transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Уточнения CIM приводят к создания PIM.~В рассматриваемом далее подходе к реализации MDA не используются CIMмодели.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T052143Z" creationid="eugeneai" creationdate="20161205T052143Z">
+        <seg>CIM refinements lead to specification og PIM. (?) We have no experience of usage CIM in IS specifications, but \ldots.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

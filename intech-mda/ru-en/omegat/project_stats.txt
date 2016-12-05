@@ -1,0 +1,14 @@
+12/5/16 6:29 PM
+Project Statistics
+
+                 	Segments	Words	Characters (without spaces)	Characters (including spaces)	#Files	
+Total:           	     238	 3847	                      27926	                        31415	     1	
+Remaining:       	     187	 3059	                      22322	                        25107	     1	
+Unique:          	     235	 3844	                      27902	                        31391	     1	
+Unique Remaining:	     187	 3059	                      22322	                        25107	     1	
+
+
+Individual File Statistics:
+
+File Name    	Total Segments	Remaining Segments	Unique Segments	Unique Remaining Segments	Total Words	Remaining Words	Unique Words	Unique Remaining Words	Total Characters (without spaces)	Remaining Characters (without spaces)	Unique Characters (without spaces)	Unique Remaining Characters (without spaces)	Total Characters (including spaces)	Remaining Characters (including spaces)	Unique Characters (including spaces)	Unique Remaining Characters (including spaces)	
+rus-parts.txt	           238	               187	            235	                      187	       3847	           3059	        3844	                  3059	                            27926	                                22322	                             27902	                                       22322	                              31415	                                  25107	                               31391	                                         25107	

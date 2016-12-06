@@ -22,10 +22,50 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg># ПРИМЕНЕНИЕ ТЕХНОЛОГИИ СИНТЕЗА КАРКАСА ИНФОРМАЦИОННОЙ СИСТЕМЫ ДЛЯ СОЗДАНИЯ МЕДИЦИНСКОЙ ИНФОРМАЦИОННОЙ СИСТЕМЫ «ПОПУЛЯЦИОННЪ|Й РАКОВЫЙ РЕГИСТР»</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T023654Z" creationid="eugeneai" creationdate="20161206T023654Z">
+        <seg># APPLICATION OF THE TECHNOLOGY OF SYNTHESIS OF A framework OF THE INFORMATION SYSTEM "POPULATION CANCER REGISTRY"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg># Способы трансформации</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T014312Z" creationid="eugeneai" creationdate="20161206T014312Z">
+        <seg># Transformation approaches</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg># ТРАНСФОРМАЦИЯ МОДЕЛЕЙ НА ОСНОВЕ ЛОГИЧЕСКИХ ПРАВИЛ</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T021807Z" creationid="eugeneai" creationdate="20161206T021807Z">
+        <seg># TRANSFORMATION as a knowledge based system</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>## Информационные потоки</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T025109Z" creationid="eugeneai" creationdate="20161206T025109Z">
+        <seg>## Information flows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>6.1.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102615Z" creationid="eugeneai" creationdate="20161205T102615Z">
         <seg>6.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>6.3).</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T025206Z" creationid="eugeneai" creationdate="20161206T025206Z">
+        <seg>6.4).</seg>
       </tuv>
     </tu>
     <tu>
@@ -42,6 +82,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051849Z" creationid="eugeneai" creationdate="20161205T051849Z">
         <seg>CIM is to be as general as possible and not dependent on the implementation of the systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Ho XMI разрабатывался прежде всего, как стандарт хранения и обмена ЬМ1~-- данными, он сложен для чтения и понимания пользователем.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T020952Z" creationid="eugeneai" creationdate="20161206T020952Z">
+        <seg>(SHT)Howewer, XMI was developed primarily as a data format, it is difficult to read and understand by programmer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -86,10 +134,34 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>PSM"=модель ИС представляется в виде UML"=диаграммы.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T022006Z" creationid="eugeneai" creationdate="20161206T022006Z">
+        <seg>UML is used for IS description.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>SQL"=запросы для создания таблиц БД, создания, редактирования, удаления записей в эти таблицы;</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T150351Z" creationid="eugeneai" creationdate="20161205T150351Z">
         <seg>the SQL queries for DB tables creation, and create, edit, delete statements for table records manitpulation;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>XMI обеспечивает обмен данными (моделями) между различными инструментами и средами разработки.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T020452Z" creationid="eugeneai" creationdate="20161206T020452Z">
+        <seg>XMI provides the exchange of data (models) between different tools and development environments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Автоматизация ведения ракового регистра путем внедрения информационных технологий в организацию и деятельность органов и учреждений здравоохранения в современных условиях является важнейшим инструментом реализации государственной политики по обеспечению населения качественной медицинской помощью.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024006Z" creationid="eugeneai" creationdate="20161206T024006Z">
+        <seg>(REV) Automation of the management of the cancer register through the introduction of information technologies in the organization and activities of bodies and institutions of health in modern conditions is the most important instrument of realization of state policy on providing the population with qualitative medical aid.</seg>
       </tuv>
     </tu>
     <tu>
@@ -126,6 +198,22 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>В МИС ПРР предложены механизмы взаимодействия со сторонними программами, обеспечивающими ведение и сопровождение регистра.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024818Z" creationid="eugeneai" creationdate="20161206T024818Z">
+        <seg>Mechanisms of interaction with third-party programs providing functioning and maintenance of the register are implemented.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В МИС ПРР реализуются следующие информационные потоки (рис.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T025201Z" creationid="eugeneai" creationdate="20161206T025201Z">
+        <seg>In the HCIS, the following information flows are implemented (Figure </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>В данной модели описываются общие требования к системе, словарь используемых понятий и условия функционирования (окружение).</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051541Z" creationid="eugeneai" creationdate="20161205T051541Z">
@@ -146,6 +234,22 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145914Z" creationid="eugeneai" creationdate="20161205T145914Z">
         <seg>Depending on the rules that specify the requirements for target platform and the existing code templates, a number of implementations of the same IS can be generated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В настоящее время во всем мире отмечается рост уровня онкологических заболеваний.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T023727Z" creationid="eugeneai" creationdate="20161206T023727Z">
+        <seg>Currently, worldwide there is a growing level of cancer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В предложенном подходе к реализации MDA генерирование программного кода осуществляется при помощи последовательной трансформации исходной модели ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T021431Z" creationid="eugeneai" creationdate="20161206T021431Z">
+        <seg>(ATL,Stratego)We use the approach, where generating program code is performed using a sequential transformation of the original model of IS.</seg>
       </tuv>
     </tu>
     <tu>
@@ -190,10 +294,34 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>В таком формате документ поступает на вход транслятора, обеспечивающего его трансформацию и последующий синтез программного кода.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T022206Z" creationid="eugeneai" creationdate="20161206T022206Z">
+        <seg>In this format of the document is passed as input to the translator, providing the transformation and subsequent synthesis of the program source code.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>В частности, можно представить UML"=модель в виде графа и использовать математический аппарат трансформации графов \cite{b102}.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T015553Z" creationid="eugeneai" creationdate="20161206T015553Z">
+        <seg>The UML model can be represented as graph, then the transformation can be described with mathematical apparatus of manipulation of graph structures\cite{b102}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Во время разработки ни одна модель не остается неизменной.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152300Z" creationid="eugeneai" creationdate="20161205T152300Z">
         <seg>(SHT) During development, no model is unchanged.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Возможности практически любого UML"=редактора (Poseidon, Umbrella, Rational Rose и др.) позволяют сохранить модель в виде XML"=документа.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T022109Z" creationid="eugeneai" creationdate="20161206T022109Z">
+        <seg>Almost any UML editor, e.g., Poseidon for UML, Umbrello, Rational Rose, etc. have options for saving the model as XMI document.</seg>
       </tuv>
     </tu>
     <tu>
@@ -206,10 +334,50 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Главный недостаток такого подхода состоит в том, что в нем используется собственный понятийный аппарат, не имеющий отношения к UML"=моделированию.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T015621Z" creationid="eugeneai" creationdate="20161206T015621Z">
+        <seg>The main drawback of this approach is that it uses its own conceptual apparatus, not related to UML modeling.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Данная база знаний и процедура трансформации фактически являются моделью программно"=аппаратной платформы, для которой реализуется ИС.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T021726Z" creationid="eugeneai" creationdate="20161206T021726Z">
+        <seg>This knowledge base and procedure of transformation are in the PM of a target software and hardware platform on which the IS under development is to be deployed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Данная технология позволяет оперативно адаптировать ИС к изменяюшимся требованиям по ведению ракового регистра, а также к возможным изменениям программно"=аппаратной реализации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024516Z" creationid="eugeneai" creationdate="20161206T024404Z">
+        <seg>This technology allows one quickly adapt the IS to changes in the requirements for the cancer register functionality, as well as the target deployment platform.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Данный регистр формируется на основе данных, получаемых в регионах России.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T023911Z" creationid="eugeneai" creationdate="20161206T023911Z">
+        <seg>This register is aggragated on data obtained in the regions of Russia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Данный язык схож своим синтаксисом с объектно"=ориентированными языками программирования.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T103919Z" creationid="eugeneai" creationdate="20161205T103919Z">
         <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Для ХМI существует несколько хорошо развитых методик трансформации, в частности, XSLT u XQuery.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T020630Z" creationid="eugeneai" creationdate="20161206T020630Z">
+        <seg>There are several well-developed techniques of transformation for XML, they are based on technologies XSLT, XPath and XQuery (!! Deabbreviate).</seg>
       </tuv>
     </tu>
     <tu>
@@ -230,10 +398,34 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Для профилактики, учета данного вида заболеваний, анализа эфективности проводимого лечения в России создана система Государственного ракового регистра.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T023849Z" creationid="eugeneai" creationdate="20161206T023849Z">
+        <seg>For prevention of this kind of disease and analysis of the effectiveness of the treatment, a system of State cancer registry is being developed in Russia.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Для реализации ИС в рамках MDA"=подхода предложена технология, основанная на применении формализованных знаний в процессе трансформации моделей.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T021903Z" creationid="eugeneai" creationdate="20161206T021903Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Для реализации рассмотренного MDA"=подхода к созданию ИС предложена технология, основанная на применении формализованных знаний в процессе трансформации моделей.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145351Z" creationid="eugeneai" creationdate="20161205T102905Z">
         <seg>Our approach to PIM-PSM transformation is constructed with knowledge based systems.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Для трансформации UML"=модели можно преобразовать ее в ХМI"=представление, выполнить трансформацию средствами работы с XML u затем преобразовать результат обратно в UML.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T020828Z" creationid="eugeneai" creationdate="20161206T020828Z">
+        <seg>(SHT)UML model is represented in XMI, then transformed with XML tools, and then the results are converted back into UML.</seg>
       </tuv>
     </tu>
     <tu>
@@ -246,6 +438,22 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Другой подход~-- использование уже разработанных механизмов трансформаций и преобразований.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T015322Z" creationid="eugeneai" creationdate="20161206T015322Z">
+        <seg>(SHT) Another approach is the use of already developed mechanisms of transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Ее использование позволяет значительно автоматизировать документооборот по ведению регистра.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024722Z" creationid="eugeneai" creationdate="20161206T024722Z">
+        <seg>Its use automates workflow of management of the register significantly.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Если бы для каждой системы трансформацию приходилось описывать заново, это оказалось бы даже менее эффективно, чем переход от PIM к PSM вручную.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151851Z" creationid="eugeneai" creationdate="20161205T151851Z">
@@ -254,10 +462,58 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Если у больного установлена четвертая стадия заболевания, то на него заполняется документ «Протокол запущенности».</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T025617Z" creationid="eugeneai" creationdate="20161206T025617Z">
+        <seg>If the fourth stage of the disease was determined, then the document "Protocol of neglect" is filled in.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Еще один вариант заключается в использовании методик трансформации XML"=документов и стандарта XMI.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T020239Z" creationid="eugeneai" creationdate="20161206T020239Z">
+        <seg>Another approach to transformation representation is to use the XML languages for UML model representation (XMI standard) and technologies of its manipulation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Желательно, чтобы в языке были предусмотрены средства для настройки и параметризации трансформации, не требующей кардинальной переделки всего описания трансформации.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152203Z" creationid="eugeneai" creationdate="20161205T152117Z">
         <seg>(SHT) The language has to include the means of the configuration and parameterization of the transformation, which do not require radical alterations in all the description of the transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>И наконец, подобный подход означает, что для каждой среды разработки придется писать полный набор описаний трансформаций для всех популярных технологий, вместо того чтобы использовать стандартные описания трансформаций, созданные независимыми разработчиками.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T015238Z" creationid="eugeneai" creationdate="20161206T015238Z">
+        <seg>(SHT) And finally, for each development environment the developer will have to cinstruct a complete set of descriptions of the transformations for all popular technologies, instead of using standard ones created by independent developers.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>ИС является «клиент"=серверным» Web"=ресурсом с поддержкой кроссплатформенности.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024957Z" creationid="eugeneai" creationdate="20161206T024957Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Из"=за того, что трансформация описывается в терминах XML, а не UML, большая часть описания трансформации оказывается направленной на то, чтобы в результате получить XML"=документ, соответствующий стандарту ХМ1 \cite{b145}, а не на собственно описание трансформации U M L.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T021304Z" creationid="eugeneai" creationdate="20161206T021304Z">
+        <seg>Due to the fact that the transformation is described in terms of XML, not the source UML, a large part of the description of the transformation is to supply the result to be converted back to XMI \cite{b145}, the actual description of the transformation (??) gets lost within.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Изменения МИС проводятся путем модификации модели и/или способов ее трансформации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024455Z" creationid="eugeneai" creationdate="20161206T024427Z">
+        <seg>Changes of HCIS are carried out by modifying the model and/or it transformation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -298,6 +554,22 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100544Z" creationid="eugeneai" creationdate="20161205T100513Z">
         <seg>(SKIP) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Кроме того, из"=за отсутствия единого стандарта описания трансформаций разные среды разработки неминуемо будут выполнять трансформации по"=разному даже для одной и той же технологической платформы, что может привести к возникновению случаев несовместимости и затруднит смену сред разработки: вместо зависимости от технологической платформы программист окажется в зависимости от выбранной им среды разработки.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T015101Z" creationid="eugeneai" creationdate="20161206T015101Z">
+        <seg>(SHT) This leads to dependability of the developer on the tools.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>МИС ПРР обеспечивает полный цикл регистрации, учета, модификации данных, необходимых для ведения популяционного ракового регистра.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024628Z" creationid="eugeneai" creationdate="20161206T024628Z">
+        <seg>HCIS PCF provides the full cycle of registration, accounting, data modification to conduct population cancer registry of regional scale.</seg>
       </tuv>
     </tu>
     <tu>
@@ -350,6 +622,14 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>На основе технологии синтеза каркаса информационной системы создана кроссплатформенная медицинская ИС «Популяционный раковый регистр» (МИС ПРР), выполненная в виде Web"=ресурса, удовлетворяющая требованиям, предъявляемым к системам Министерством здравоохранения РФ, и рекомендациям специалистов Государственного бюджетного учреждения здравоохранения «Иркутский областной онкологический диспансер» (ИООД).</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024504Z" creationid="eugeneai" creationdate="20161206T024202Z">
+        <seg>(REV) On the basis of the technology of synthesis IS framework, a cross-platform healthcare system "Population cancer registry" (HCIS PCR) is made in the form of a Web application that meets the requirements of the Ministry of health of the Russian Federation, and the recommendations of the experts of the State budgetary health care institution "Irkutsk Regional Oncology Dispensary".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Наглядность правил трансформации.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152625Z" creationid="eugeneai" creationdate="20161205T152625Z">
@@ -370,6 +650,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T145306Z" creationid="eugeneai" creationdate="20161205T104233Z">
         <seg>A general scheme of PIM to PSM transformation is presented in Figure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Объектная модель обрабатывается сценарием, написанным и исполняемым в среде Python.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T022451Z" creationid="eugeneai" creationdate="20161206T022451Z">
+        <seg>The object model is processed by a script written in the Python programming language [python].</seg>
       </tuv>
     </tu>
     <tu>
@@ -402,6 +690,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T051030Z" creationid="eugeneai" creationdate="20161205T050904Z">
         <seg>(?) However, the specification of the software to be gnerated does not prescribe the ways of transformation of the models.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Однако у такого подхода имеется ряд недостатков, которые делают его малопригодным для использования в рассматриваемой методике синтеза программного кода.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T015007Z" creationid="eugeneai" creationdate="20161206T014600Z">
+        <seg>(SHT)However, this approach has several drawbacks that make it less productive.</seg>
       </tuv>
     </tu>
     <tu>
@@ -454,6 +750,14 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Одной из актуальных задач для эффективного развития территорий является забота о здоровье населения.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T023720Z" creationid="eugeneai" creationdate="20161206T023720Z">
+        <seg>One of the urgent tasks for the effective development of the regions is taking care of the health of the population.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Он достаточно понятен разработчику и в то же время строг, что предоставляет возможность обработки ограничения с помощью соответствующего программного обеспечения.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T100213Z" creationid="eugeneai" creationdate="20161205T100213Z">
@@ -498,6 +802,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T093545Z" creationid="eugeneai" creationdate="20161205T093318Z">
         <seg>PIM is the basis of MDA. Using PIM IS is described on an abstract level, which allows us to consider the IS under development as independent of the specific properties of software and hardware platform, where it is to be implementaed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>По мере перебора элементов объектной модели, в соответствии с требованиями к ИС сценарий запускает для их трансформации интерпретатор Prolog.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T022644Z" creationid="eugeneai" creationdate="20161206T022644Z">
+        <seg>The first Iteration over the object model produces set of initial facts on the PIM structure in Prolog environmant.</seg>
       </tuv>
     </tu>
     <tu>
@@ -566,10 +878,26 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Прежде всего у разработчика отсутствует возможность добавлять новые описания трансформаций или изменять существующие; он вынужден использовать то, что сделано разработчиками инструмента.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T014956Z" creationid="eugeneai" creationdate="20161206T014956Z">
+        <seg>(SHT)The developer has less options to add new transformations or change existing ones,and is forced to use the existing tools.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Преобразование из PIM в PSM осуществляется при помоши формального представления свойств платформы, модели программно"=аппаратной платформы (Platform Model).</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102124Z" creationid="eugeneai" creationdate="20161205T102108Z">
         <seg>The transformation from PIM to PSM is carried out according to a formal representation of the properties of the target platform, i.e., Platform Model (PM).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>При первом обрашении пациента в онкологический кабинет или диспансер на него заводится документ «Извещение о впервые установленном злокачественном новообразовании».</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T025503Z" creationid="eugeneai" creationdate="20161206T025503Z">
+        <seg>The first coming of the patient to an oncology office or clinic result in the document "Notice of first established malignant neoplasm" is being created.</seg>
       </tuv>
     </tu>
     <tu>
@@ -586,6 +914,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T103821Z" creationid="eugeneai" creationdate="20161205T103821Z">
         <seg>and in a development process UML diagrams are the language for formal description of the system, as well as means of documenting.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>При этом в среду разработки на этапе ее создания встраивается набор модулей трансформаций, которые позднее могут быть задействованы разработчиком для генерирования программного кода.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T014509Z" creationid="eugeneai" creationdate="20161206T014509Z">
+        <seg>(SHT) In the development environment at the stage of its creation, the set of transformation modules is embedded, which can later be used by the developer to generate source code.</seg>
       </tuv>
     </tu>
     <tu>
@@ -630,6 +966,14 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Применение Webтехнологий позволяет избегать необходимости установки специализированного программного обеспечения на каждую рабочую станцию, а кроссплатформенность снижает зависимость от политики поставщиков программного обеспечения и обеспечивает достаточно высокий уровень масштабируемости.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T025105Z" creationid="eugeneai" creationdate="20161206T025105Z">
+        <seg>(REV, SKIP) Web applications allows developers ids the need to install specialized software on each workstation, and the platform reduces the dependence from the policies of software vendors and provides a fairly high level of scalability.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Применение технологии синтеза каркаса информационной системы по ее формальной модели показало ее высокую эффективность при создании медицинской информационной системы «Популяционный раковый регистр».</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153940Z" creationid="eugeneai" creationdate="20161205T153940Z">
@@ -642,6 +986,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T153712Z" creationid="eugeneai" creationdate="20161205T153712Z">
         <seg>The source code is synthesized from templates embedded in the rules and scenarios of transformation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Простейшим способом является императивное описание процесса трансформации с использованием алгоритмического языка.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T014356Z" creationid="eugeneai" creationdate="20161206T014356Z">
+        <seg>The easiest way is an imperative description of the transformation process in an algorithmic language.</seg>
       </tuv>
     </tu>
     <tu>
@@ -666,6 +1018,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T151313Z" creationid="eugeneai" creationdate="20161205T151313Z">
         <seg>Consider the technology of the automatic synthesis (generation) of the target program code of the IS out of its model.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Реализованы подсистемы конвертации данных и генерации отчетных форм.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024945Z" creationid="eugeneai" creationdate="20161206T024842Z">
+        <seg>The subsystems for data conversion and generation of annual report forms are created.</seg>
       </tuv>
     </tu>
     <tu>
@@ -730,6 +1090,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102647Z" creationid="eugeneai" creationdate="20161205T102647Z">
         <seg>Scheme of IS framework development according to MDA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Существует несколько способов описания и выполнения трансформаций UML"=моделей.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T014325Z" creationid="eugeneai" creationdate="20161206T014325Z">
+        <seg>There are several ways to describe and perform transformations of UML model.</seg>
       </tuv>
     </tu>
     <tu>
@@ -806,6 +1174,30 @@
     </tu>
     <tu>
       <tuv lang="RU-RU">
+        <seg>Элементы трансформации представлены логическими правилами (продукциями), формирующими базу знаний.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T021535Z" creationid="eugeneai" creationdate="20161206T021535Z">
+        <seg>The elements of the transformation are represented by logical rules (productions) forming a knowledge base.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Эти подсистемы позволяют загружать информацию из БД ранее используемых программ, создавать печатные формы первичных документов регистра, формировать ежегодные отчеты.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T024934Z" creationid="eugeneai" creationdate="20161206T024934Z">
+        <seg>(SKIP)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Это значит, что от пользователей такой системы требуется знание не только UML"=моделирования, но и теории графов и принципов их трансформации.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T015800Z" creationid="eugeneai" creationdate="20161206T015800Z">
+        <seg>That users of such a system will require to know UML modeling, graph theory, and principles of graph structures manipulation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
         <seg>Это значит, что уже после трансформации как исходные модели, так и модели, созданные в процессе трансформации, могут быть изменены.</seg>
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T152402Z" creationid="eugeneai" creationdate="20161205T152402Z">
@@ -826,6 +1218,22 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T101444Z" creationid="eugeneai" creationdate="20161205T101444Z">
         <seg>(?) OCL allows one to track the class instances, and the instances of descendant classes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Этот файл поступает на вход XMI"=транслятора, базирующегося на стандартной библиотеке 11Ьхт12 \cite{b151}, который преобразует данные XMI"=файла в объектную модель документа, удовлетворяющую требованиям структуры DOM"=2 [119].</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T022420Z" creationid="eugeneai" creationdate="20161206T022420Z">
+        <seg>The input is processed by XML translator, based on the library libxml2 \cite{b151}, which converts XMI file in a Element tree object model [119, etree].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>Этот формат предназначен, главным образом, для хранения UML"=данных, а также любых других данных, метамодель которых задана с помощью MOF (Meta Object Facility).</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T020426Z" creationid="eugeneai" creationdate="20161206T020426Z">
+        <seg>XMI format is intended mainly for storing UML model and any other data whose metamodel specified using the MOF (Meta Object Facility).</seg>
       </tuv>
     </tu>
     <tu>
@@ -938,6 +1346,14 @@
       </tuv>
       <tuv lang="EN-GB" changeid="eugeneai" changedate="20161205T102612Z" creationid="eugeneai" creationdate="20161205T102612Z">
         <seg>PSM is to contain enough details to generate source code of subsystems according to the structures and properties defined in it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="RU-RU">
+        <seg>трансформаций, созданные независимыми разработчиками.</seg>
+      </tuv>
+      <tuv lang="EN-GB" changeid="eugeneai" changedate="20161206T015252Z" creationid="eugeneai" creationdate="20161206T015252Z">
+        <seg>(SKIP)</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
